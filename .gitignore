@@ -30,5 +30,4 @@ yarn-error.log*
 next-env.d.ts
 
 /public/images/foiling/abstract/*
-/public/images/foiling/acid-foils/*
 /public/images/foiling/animal-prints/*

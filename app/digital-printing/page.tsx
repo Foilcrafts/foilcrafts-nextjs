@@ -30,7 +30,7 @@ export default async function DigitalPrintingPage() {
         eyebrow="03 — Digital Printing"
         title="Direct-to-leather<br><em>digital printing.</em>"
         image="/images/digital-printing/FC-1567.jpg"
-        sub="Ten curated prints from our digital direct-to-hide capability — first shown at IILF 23. Custom artwork accepted for production."
+        sub="Eight curated prints from our digital direct-to-hide capability — first shown at IILF 23. Custom artwork accepted for production."
       />
       <Marquee items={content.marquee} />
       <ItemsInline fromSlug="digital-printing" isApproved={isApproved} />

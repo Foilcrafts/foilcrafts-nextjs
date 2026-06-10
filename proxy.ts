@@ -33,7 +33,7 @@ const AUTH_PATHS = [
 const AUTHED_ANY_STATUS_PATHS = ["/pending-approval"];
 
 // Routes that require status='approved'.
-const APPROVED_ONLY_PATHS = ["/library", "/api/asset"];
+const APPROVED_ONLY_PATHS = ["/library"];
 
 // Routes that require role='admin'.
 const ADMIN_ONLY_PATHS = ["/admin"];

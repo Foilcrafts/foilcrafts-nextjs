@@ -218,7 +218,7 @@ export function CatalogsSection() {
             <Link
               key={i}
               className="cat-card reveal"
-              href={`/api/asset/${it.file.replace(/^\//, "")}`}
+              href={it.file}
               prefetch={false}
             >
               <div

@@ -73,7 +73,7 @@ export default async function LibraryPage() {
               <Link
                 key={i}
                 className="cat-card"
-                href={`/api/asset/${it.file.replace(/^\//, "")}`}
+                href={it.file}
                 prefetch={false}
               >
                 <div

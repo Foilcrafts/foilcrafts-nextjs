@@ -353,13 +353,15 @@
   .ii-card__name { font-family: var(--serif); font-size: 18px; font-weight: 400; }
   .ii-card__code { font-family: var(--mono); font-size: 11px; letter-spacing: .15em; opacity: .9; }
 
-  /* Locked teaser (guests / pending on digital-printing and cut-plates pages) */
-  .ii-locked { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 80px var(--gut) 40px; }
-  .ii-locked__icon { width: 72px; height: 72px; border: 1px solid rgba(14,14,12,.15); border-radius: 50%; display: grid; place-items: center; color: var(--ash); margin-bottom: 24px; }
-  .ii-locked__heading { font-family: var(--serif); font-size: clamp(26px, 3vw, 38px); font-weight: 300; letter-spacing: -.02em; color: var(--ink); }
-  .ii-locked__copy { font-size: 15px; line-height: 1.65; color: var(--ink); opacity: .7; max-width: 500px; margin: 16px auto 28px; }
-  .ii-locked__actions { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-bottom: 64px; }
-  .ii-locked__preview { opacity: .4; filter: blur(2px); pointer-events: none; user-select: none; }
+  /* "+N More Articles" teaser card (guests on digital-printing / cut-plates) */
+  .ii-card--teaser { display: flex; align-items: center; justify-content: center; background: var(--bone-2); border: 1px solid rgba(14,14,12,.10); text-decoration: none; color: var(--ink); transition: border-color .3s ease, box-shadow .3s ease; }
+  .ii-card--teaser:hover { border-color: var(--gold); box-shadow: 0 4px 24px rgba(200,168,120,.15); }
+  .ii-teaser__inner { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 24px 16px; gap: 8px; }
+  .ii-teaser__icon { width: 56px; height: 56px; border: 1px solid rgba(14,14,12,.12); border-radius: 50%; display: grid; place-items: center; color: var(--gold); margin-bottom: 8px; }
+  .ii-teaser__count { font-family: var(--serif); font-size: clamp(18px, 2vw, 24px); font-weight: 400; letter-spacing: -.02em; }
+  .ii-teaser__sub { font-family: var(--mono); font-size: 10px; letter-spacing: .2em; text-transform: uppercase; opacity: .55; }
+  .ii-teaser__btn { display: inline-block; margin-top: 12px; padding: 10px 22px; border: 1px solid var(--ink); border-radius: 100px; font-family: var(--mono); font-size: 11px; letter-spacing: .15em; text-transform: uppercase; color: var(--ink); transition: background .25s ease, color .25s ease; }
+  .ii-card--teaser:hover .ii-teaser__btn { background: var(--ink); color: var(--bone); }
 
   /* ============================================================
      TOUCH DEVICES — disable hover-only states + custom cursor

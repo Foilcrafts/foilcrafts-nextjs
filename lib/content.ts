@@ -121,9 +121,9 @@ export const content = {
       "label": "Foiling",
       "hero": {
         "eyebrow": "02 — Foiling",
-        "title": "Fourteen foiling families.<br><em>One Italian mill.</em>",
+        "title": "Nineteen foiling families.<br><em>One Italian mill.</em>",
         "image": "/images/foiling/ft-metallic/Compressed/FC-1063.jpg",
-        "sub": "The complete C.F.M. transfer-foil archive we currently stock — metallic, holographic, animal, abstract, crackle, floral, acid, distress, hand-painted, small-print, stripe, tie & dye, transparent patent, and wrinkle."
+        "sub": "The complete C.F.M. transfer-foil archive we currently stock — metallic, holographic, animal, abstract, crackle, floral, acid, distress, hand-painted, small-print, stripe, tie & dye, transparent patent, wrinkle, camo, checks & fabric, children prints, denim, and snake & python."
       },
       "sections": [
         "page_hero",
@@ -145,7 +145,12 @@ export const content = {
         "stripes",
         "tie-and-dye",
         "transparent-patents",
-        "wrinkled"
+        "wrinkled",
+        "camo-pattern",
+        "checks-and-fabric",
+        "children-prints",
+        "denim",
+        "snake-and-python"
       ]
     },
     {
@@ -155,7 +160,7 @@ export const content = {
         "eyebrow": "03 — Digital Printing",
         "title": "Direct-to-leather<br><em>digital printing.</em>",
         "image": "/images/digital-printing/FC-1567.jpg",
-        "sub": "Ten curated prints from our digital direct-to-hide capability — first shown at IILF 23. Custom artwork accepted for production."
+        "sub": "Eight curated prints from our digital direct-to-hide capability — first shown at IILF 23. Custom artwork accepted for production."
       },
       "sections": [
         "page_hero",
@@ -231,7 +236,7 @@ export const content = {
     "EST. 1962",
     "NOIDA · INDIA",
     "47 CUT & EMBOSSING PLATES",
-    "14 FOILING FAMILIES"
+    "19 FOILING FAMILIES"
   ],
   "manifesto": "For three generations we've held one trade — pressing Italian transfer foil onto leather, by hand, in Noida. We are the authorised distributor of <span class=\"acc\">C.F.M.</span>, the Lombardy mill whose foils sit beneath the finish of the world's most quietly recognised leather goods. We are not the brand on the bag. We are the <em>finish</em> on the leather.\n",
   "capabilities": {
@@ -344,7 +349,7 @@ export const content = {
     ]
   },
   "collections_section": {
-    "heading": "Fourteen foiling families.<br><em>Two crafts beside them.</em>\n",
+    "heading": "Nineteen foiling families.<br><em>Two crafts beside them.</em>\n",
     "copy": "Every family below is a live archive. Browse a card for C.F.M. article numbers and atelier-shot production samples."
   },
   "collections": [
@@ -959,9 +964,114 @@ export const content = {
       ]
     },
     {
-      "slug": "cut-plates",
+      "slug": "camo-pattern",
       "size": "sm",
       "number": "/15",
+      "title_short": "Camo Pattern",
+      "title": "Camo <em>Pattern</em>",
+      "eyebrow": "/15 — Foiling Family",
+      "count": "11 curated articles",
+      "origin": "Origin · Lombardy, Italy",
+      "hero_image": "/images/foiling/camo-pattern/FC-714.JPG",
+      "lead": "Military-inspired camouflage foils — woodland, desert, urban. The disruptive pattern library for streetwear, outerwear, and accessories.",
+      "body": "Available in metallic and matte variants across the full camo spectrum.",
+      "items": [
+        { "name": "FC-714", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-714.JPG" },
+        { "name": "FC-715", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-715 (1).JPG" },
+        { "name": "FC-716", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-716.JPG" },
+        { "name": "FC-717", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-717.JPG" },
+        { "name": "FC-718", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-718.JPG" },
+        { "name": "FC-720", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-720.JPG" },
+        { "name": "FC-721", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-721.jpg" },
+        { "name": "FC-722", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-722.jpg" },
+        { "name": "FC-723", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-723.jpg" },
+        { "name": "FC-724", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-724.jpg" },
+        { "name": "FC-1038", "code": "Camo", "image": "/images/foiling/camo-pattern/FC-1038.JPG" }
+      ]
+    },
+    {
+      "slug": "checks-and-fabric",
+      "size": "sm",
+      "number": "/16",
+      "title_short": "Checks & Fabric",
+      "title": "Checks &amp; <em>Fabric</em>",
+      "eyebrow": "/16 — Foiling Family",
+      "count": "3 curated articles",
+      "origin": "Origin · Lombardy, Italy",
+      "hero_image": "/images/foiling/checks-and-fabric/FC-708.jpg",
+      "lead": "Woven checks, tweed textures, and fabric-grain foils — textile patterns pressed into leather via C.F.M. transfer.",
+      "body": "A crossover between tailoring and leather craft, favoured for small leather goods and men's accessories.",
+      "items": [
+        { "name": "FC-708", "code": "Checks", "image": "/images/foiling/checks-and-fabric/FC-708.jpg" },
+        { "name": "FC-709", "code": "Checks", "image": "/images/foiling/checks-and-fabric/FC-709.jpg" },
+        { "name": "FC-711", "code": "Fabric", "image": "/images/foiling/checks-and-fabric/FC-711.JPG" }
+      ]
+    },
+    {
+      "slug": "children-prints",
+      "size": "sm",
+      "number": "/17",
+      "title_short": "Children Prints",
+      "title": "Children <em>Prints</em>",
+      "eyebrow": "/17 — Foiling Family",
+      "count": "3 curated articles",
+      "origin": "Origin · Noida, India",
+      "hero_image": "/images/foiling/children-prints/aw25.jpg",
+      "lead": "Playful, colourful foil patterns designed for children's footwear, accessories, and junior leather goods.",
+      "body": "Custom motif development available for brand-specific artwork.",
+      "items": [
+        { "name": "FC-1584", "code": "Children", "image": "/images/foiling/children-prints/FC-1584.JPG" },
+        { "name": "FC-1600", "code": "Children", "image": "/images/foiling/children-prints/FC-1600.JPG" },
+        { "name": "AW25", "code": "Children", "image": "/images/foiling/children-prints/aw25.jpg" }
+      ]
+    },
+    {
+      "slug": "denim",
+      "size": "sm",
+      "number": "/18",
+      "title_short": "Denim",
+      "title": "Denim <em>Foils</em>",
+      "eyebrow": "/18 — Foiling Family",
+      "count": "1 curated article",
+      "origin": "Origin · Lombardy, Italy",
+      "hero_image": "/images/foiling/denim/FC-703.jpg",
+      "lead": "The warp-and-weft of raw denim, rendered as a C.F.M. transfer foil — for leather that reads like indigo selvedge.",
+      "body": "A singular, statement foil. Best applied to full-grain calf for accessory and footwear panels.",
+      "items": [
+        { "name": "FC-703", "code": "Denim", "image": "/images/foiling/denim/FC-703.jpg" }
+      ]
+    },
+    {
+      "slug": "snake-and-python",
+      "size": "sm",
+      "number": "/19",
+      "title_short": "Snake & Python",
+      "title": "Snake &amp; <em>Python</em>",
+      "eyebrow": "/19 — Foiling Family",
+      "count": "12 curated articles",
+      "origin": "Origin · Lombardy, Italy",
+      "hero_image": "/images/foiling/snake-and-python/FC-741.jpg",
+      "lead": "Scaled, sinuous, hypnotic. The reptilian foil archive — python, cobra, and water snake — for houses that need the exotic silhouette in foil.",
+      "body": "Available in metallic, matte, and holographic finishes. Custom scale sizing on request.",
+      "items": [
+        { "name": "FC-741", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-741.jpg" },
+        { "name": "FC-742", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-742.jpg" },
+        { "name": "FC-743", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-743.jpg" },
+        { "name": "FC-744", "code": "Python", "image": "/images/foiling/snake-and-python/FC-744.jpg" },
+        { "name": "FC-745", "code": "Python", "image": "/images/foiling/snake-and-python/FC-745.jpg" },
+        { "name": "FC-1015", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-1015.JPG" },
+        { "name": "FC-1016", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-1016.JPG" },
+        { "name": "FC-1017", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-1017.JPG" },
+        { "name": "FC-1018", "code": "Python", "image": "/images/foiling/snake-and-python/FC-1018.JPG" },
+        { "name": "FC-1019", "code": "Python", "image": "/images/foiling/snake-and-python/FC-1019.JPG" },
+        { "name": "FC-1020", "code": "Python", "image": "/images/foiling/snake-and-python/FC-1020.JPG" },
+        { "name": "FC-1021", "code": "Snake", "image": "/images/foiling/snake-and-python/FC-1021.JPG" }
+      ]
+    },
+    {
+      "slug": "cut-plates",
+      "size": "sm",
+      "number": "/20",
       "title_short": "Cut Plates & Embossing",
       "title": "Cut Plates &amp; <em>Embossing</em>",
       "eyebrow": "/15 — In-House Craft",
@@ -971,57 +1081,59 @@ export const content = {
       "lead": "Our in-house cut and embossing library — 24 cut plates and 23 embossing dies, used independently of foiling or as the structural layer beneath it.",
       "body": "Custom dies developed at our Sector 57 facility. Article numbers stay stable; new dies are added to the library as bespoke work concludes.",
       "items": [
-        {
-          "name": "CP-001",
-          "code": "Cut Plate",
-          "image": "/images/cut-plates/CP-001.jpg"
-        },
-        {
-          "name": "CP-006",
-          "code": "Cut Plate",
-          "image": "/images/cut-plates/CP-006.jpg"
-        },
-        {
-          "name": "CP-012",
-          "code": "Cut Plate",
-          "image": "/images/cut-plates/CP-012.jpg"
-        },
-        {
-          "name": "CP-013",
-          "code": "Cut Plate",
-          "image": "/images/cut-plates/CP-013.jpg"
-        },
-        {
-          "name": "CP-032",
-          "code": "Cut Plate",
-          "image": "/images/cut-plates/CP-032.jpg"
-        },
-        {
-          "name": "EMB-006",
-          "code": "Embossing",
-          "image": "/images/cut-plates/EMB-006.jpg"
-        },
-        {
-          "name": "EMB-011",
-          "code": "Embossing",
-          "image": "/images/cut-plates/EMB-011.jpg"
-        },
-        {
-          "name": "EMB-034",
-          "code": "Embossing",
-          "image": "/images/cut-plates/EMB-034.jpg"
-        },
-        {
-          "name": "EMB-046",
-          "code": "Embossing",
-          "image": "/images/cut-plates/EMB-046.jpg"
-        }
+        { "name": "CP-001", "code": "Cut Plate", "image": "/images/cut-plates/CP-001.jpg" },
+        { "name": "CP-002", "code": "Cut Plate", "image": "/images/cut-plates/CP-002.jpg" },
+        { "name": "CP-003", "code": "Cut Plate", "image": "/images/cut-plates/CP-003.jpg" },
+        { "name": "CP-004", "code": "Cut Plate", "image": "/images/cut-plates/CP-004.jpg" },
+        { "name": "CP-005", "code": "Cut Plate", "image": "/images/cut-plates/CP-005.jpg" },
+        { "name": "CP-006", "code": "Cut Plate", "image": "/images/cut-plates/CP-006.jpg" },
+        { "name": "CP-007", "code": "Cut Plate", "image": "/images/cut-plates/CP-007.jpg" },
+        { "name": "CP-008", "code": "Cut Plate", "image": "/images/cut-plates/CP-008.jpg" },
+        { "name": "CP-009", "code": "Cut Plate", "image": "/images/cut-plates/CP-009.jpg" },
+        { "name": "CP-010", "code": "Cut Plate", "image": "/images/cut-plates/CP-010.jpg" },
+        { "name": "CP-011", "code": "Cut Plate", "image": "/images/cut-plates/CP-011.jpg" },
+        { "name": "CP-012", "code": "Cut Plate", "image": "/images/cut-plates/CP-012.jpg" },
+        { "name": "CP-013", "code": "Cut Plate", "image": "/images/cut-plates/CP-013.jpg" },
+        { "name": "CP-014", "code": "Cut Plate", "image": "/images/cut-plates/CP-014.jpg" },
+        { "name": "CP-015", "code": "Cut Plate", "image": "/images/cut-plates/CP-015.jpg" },
+        { "name": "CP-016", "code": "Cut Plate", "image": "/images/cut-plates/CP-016.jpg" },
+        { "name": "CP-030", "code": "Cut Plate", "image": "/images/cut-plates/CP-030.jpg" },
+        { "name": "CP-031", "code": "Cut Plate", "image": "/images/cut-plates/CP-031.jpg" },
+        { "name": "CP-032", "code": "Cut Plate", "image": "/images/cut-plates/CP-032.jpg" },
+        { "name": "CP-033", "code": "Cut Plate", "image": "/images/cut-plates/CP-033.jpg" },
+        { "name": "CP-035", "code": "Cut Plate", "image": "/images/cut-plates/CP-035.jpg" },
+        { "name": "CP-039", "code": "Cut Plate", "image": "/images/cut-plates/CP-039.jpg" },
+        { "name": "CP-042", "code": "Cut Plate", "image": "/images/cut-plates/CP-042.jpg" },
+        { "name": "CP-047", "code": "Cut Plate", "image": "/images/cut-plates/CP-047.jpg" },
+        { "name": "EMB-001", "code": "Embossing", "image": "/images/cut-plates/EMB-001.jpg" },
+        { "name": "EMB-002", "code": "Embossing", "image": "/images/cut-plates/EMB-002.jpg" },
+        { "name": "EMB0-003", "code": "Embossing", "image": "/images/cut-plates/EMB0-003.jpg" },
+        { "name": "EMB-004", "code": "Embossing", "image": "/images/cut-plates/EMB-004.jpg" },
+        { "name": "EMB-005", "code": "Embossing", "image": "/images/cut-plates/EMB-005.jpg" },
+        { "name": "EMB-006", "code": "Embossing", "image": "/images/cut-plates/EMB-006.jpg" },
+        { "name": "EMB-007", "code": "Embossing", "image": "/images/cut-plates/EMB-007.jpg" },
+        { "name": "EMB-008", "code": "Embossing", "image": "/images/cut-plates/EMB-008.jpg" },
+        { "name": "EMB-009", "code": "Embossing", "image": "/images/cut-plates/EMB-009.jpg" },
+        { "name": "EMB-010", "code": "Embossing", "image": "/images/cut-plates/EMB-010.jpg" },
+        { "name": "EMB-011", "code": "Embossing", "image": "/images/cut-plates/EMB-011.jpg" },
+        { "name": "EMB-012", "code": "Embossing", "image": "/images/cut-plates/EMB-012.jpg" },
+        { "name": "EMB-012X2", "code": "Embossing", "image": "/images/cut-plates/EMB-012X2.jpg" },
+        { "name": "EMB-034", "code": "Embossing", "image": "/images/cut-plates/EMB-034.jpg" },
+        { "name": "EMB-036", "code": "Embossing", "image": "/images/cut-plates/EMB-036.jpg" },
+        { "name": "EMB-037", "code": "Embossing", "image": "/images/cut-plates/EMB-037.jpg" },
+        { "name": "EMB-038", "code": "Embossing", "image": "/images/cut-plates/EMB-038.jpg" },
+        { "name": "EMB-040", "code": "Embossing", "image": "/images/cut-plates/EMB-040.jpg" },
+        { "name": "EMB-041", "code": "Embossing", "image": "/images/cut-plates/EMB-041.jpg" },
+        { "name": "EMB-043", "code": "Embossing", "image": "/images/cut-plates/EMB-043.jpg" },
+        { "name": "EMB-044", "code": "Embossing", "image": "/images/cut-plates/EMB-044.jpg" },
+        { "name": "EMB-045", "code": "Embossing", "image": "/images/cut-plates/EMB-045.jpg" },
+        { "name": "EMB-046", "code": "Embossing", "image": "/images/cut-plates/EMB-046.jpg" }
       ]
     },
     {
       "slug": "digital-printing",
       "size": "sm",
-      "number": "/16",
+      "number": "/21",
       "title_short": "Digital Printing",
       "title": "Digital <em>Printing</em>",
       "eyebrow": "/16 — Print Capability",
@@ -1113,15 +1225,7 @@ export const content = {
         "action": "Download PDF"
       },
       {
-        "eyebrow": "/04 — Lacche e Acide",
-        "title": "C.F.M. — Lacche e Acide",
-        "meta": "PDF · 388 MB · Full Collection",
-        "cover": "/images/catalogues/cover-lacche-e-acide.jpg",
-        "file": "/catalogues/lacche-e-acide-cfm-A5.pdf",
-        "action": "Download PDF"
-      },
-      {
-        "eyebrow": "/05 — Point Mondo",
+        "eyebrow": "/04 — Point Mondo",
         "title": "C.F.M. — Point Mondo",
         "meta": "PDF · 50 MB · Collection",
         "cover": "/images/catalogues/cover-point-mondo.jpg",

@@ -248,21 +248,21 @@ export const content = {
         "sub": "C.F.M. Transfer Foils",
         "title": "Foiling",
         "image": "/images/hero/card_foiling.jpg",
-        "href": "foiling.html"
+        "href": "/foiling"
       },
       {
         "number": "/02",
         "sub": "Direct-to-leather",
         "title": "Digital Printing",
         "image": "/images/hero/card_digital.jpg",
-        "href": "digital-printing.html"
+        "href": "/digital-printing"
       },
       {
         "number": "/03",
         "sub": "In-house dies",
         "title": "Cut Plates and Embossing",
         "image": "/images/hero/card_cut.jpg",
-        "href": "cut-plates-embossing.html"
+        "href": "/cut-plates-embossing"
       }
     ]
   },
@@ -1239,7 +1239,7 @@ export const content = {
     "action": "Write for samples →",
     "secondary_action": {
       "label": "Customer Login →",
-      "href": "contact.html#customer-login"
+      "href": "/contact#customer-login"
     },
     "contact_line": "info@foilcrafts.com · +91 9899 71 9197 · B-37, Sector 57, Noida",
     "bg_image": "/images/about/embossing-rolls.jpg",

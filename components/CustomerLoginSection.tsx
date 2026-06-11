@@ -2,23 +2,21 @@
 
 import Link from "next/link";
 import { useActionState, useEffect, useState } from "react";
-import { submitAccessRequest, type AccessRequestState } from "@/app/actions/access-request";
-import { signIn, type AuthState } from "@/app/actions/auth";
+import { signUp, signIn, type AuthState } from "@/app/actions/auth";
 import { createClient } from "@/utils/supabase/client";
 import { content } from "@/lib/content";
 
-const INITIAL_REQUEST: AccessRequestState = { ok: false };
-const INITIAL_AUTH: AuthState = {};
+const INITIAL: AuthState = {};
 
 export function CustomerLoginSection() {
-  const [state, formAction, isPending] = useActionState(
-    submitAccessRequest,
-    INITIAL_REQUEST
+  const [signupState, signupAction, isSignupPending] = useActionState(
+    signUp,
+    INITIAL
   );
 
   const [loginState, loginFormAction, isLoginPending] = useActionState(
     signIn,
-    INITIAL_AUTH
+    INITIAL
   );
 
   const [activeTab, setActiveTab] = useState<"request" | "login">("request");
@@ -144,14 +142,14 @@ export function CustomerLoginSection() {
             </p>
           </form>
         ) : (
-          <form className="cl-form" action={formAction}>
+          <form className="cl-form" action={user ? undefined : signupAction}>
             {!user && renderTabHeader()}
             <div className="cl-form-head">
               <h2>Request access</h2>
               <p>Trade enquiries only. Fields marked are required.</p>
             </div>
 
-            {state.ok && state.message && (
+            {signupState.message && (
               <div
                 role="status"
                 style={{
@@ -166,10 +164,10 @@ export function CustomerLoginSection() {
                   color: "var(--ink)",
                 }}
               >
-                {state.message}
+                {signupState.message}
               </div>
             )}
-            {state.error && (
+            {signupState.error && (
               <div
                 role="alert"
                 style={{
@@ -183,7 +181,7 @@ export function CustomerLoginSection() {
                   fontSize: 14,
                 }}
               >
-                {state.error}
+                {signupState.error}
               </div>
             )}
 
@@ -239,14 +237,30 @@ export function CustomerLoginSection() {
                 autoComplete="email"
               />
             </div>
+            {!user && (
+              <div className="cl-field">
+                <label htmlFor="cl-password">
+                  Password <span className="req">*</span>{" "}
+                  <span style={{ opacity: 0.5 }}>(min 8 characters)</span>
+                </label>
+                <input
+                  id="cl-password"
+                  name="password"
+                  type="password"
+                  required
+                  minLength={8}
+                  autoComplete="new-password"
+                />
+              </div>
+            )}
 
             {user ? (
               <button type="button" className="cl-submit" onClick={handleSignOut}>
                 Sign out
               </button>
             ) : (
-              <button type="submit" className="cl-submit" disabled={isPending}>
-                {isPending ? "Sending..." : "Send request"}
+              <button type="submit" className="cl-submit" disabled={isSignupPending}>
+                {isSignupPending ? "Creating account..." : "Request access"}
               </button>
             )}
 

@@ -19,7 +19,8 @@ export const content = {
     "address_line": "B-37 · Sector 57 · Noida",
     "logo": {
       "primary": "/images/brand/logo.png",
-      "light": "/images/brand/logo-full-light.png"
+      "light": "/images/brand/logo-full-light.png",
+      "dark": "/images/brand/logo-full.jpg"
     }
   },
   "palette": {
@@ -32,27 +33,27 @@ export const content = {
     "slides": [
       {
         "image": "/images/banners/banner-1-cfm.jpg",
-        "destination": "#collections",
+        "destination": "/foiling",
         "label": "C.F.M. — the Italian house"
       },
       {
         "image": "/images/banners/banner-2-passion.jpg",
-        "destination": "#collections",
+        "destination": "/foiling",
         "label": "Design is our passion"
       },
       {
         "image": "/images/banners/banner-3-infinite-choice.jpg",
-        "destination": "#collections",
+        "destination": "/foiling",
         "label": "Infinite choice of foils"
       },
       {
         "image": "/images/banners/banner-4-vision.jpg",
-        "destination": "#collections",
+        "destination": "/digital-printing",
         "label": "Digital Printing"
       },
       {
         "image": "/images/banners/banner-5-made-in-india.jpg",
-        "destination": "#customer-login",
+        "destination": "/contact#customer-login",
         "label": "Made in India"
       }
     ]

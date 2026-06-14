@@ -78,11 +78,21 @@ export function NavClient({ userName, isAdmin }: NavClientProps) {
       <nav className={navClass} id="nav">
         <Link href="/" className="nav__logo" aria-label={content.brand.name}>
           <Image
+            src={content.brand.logo.light}
+            alt={content.brand.name}
+            width={120}
+            height={32}
+            priority
+            className="nav__logo-light"
+            style={{ height: 32, width: "auto" }}
+          />
+          <Image
             src={content.brand.logo.primary}
             alt={content.brand.name}
             width={120}
             height={32}
             priority
+            className="nav__logo-primary"
             style={{ height: 32, width: "auto" }}
           />
         </Link>

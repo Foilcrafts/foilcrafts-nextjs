@@ -27,6 +27,7 @@ function getFooterHref(item: string): string {
     case "digital printing":
       return "/digital-printing";
     case "finished leather":
+      return "/foiling";
     case "bespoke production":
       return "/contact";
 
@@ -52,9 +53,9 @@ function getFooterHref(item: string): string {
     case "+91 9899 71 9197":
       return "tel:+919899719197";
     case "instagram":
-      return "https://instagram.com";
+      return "https://www.instagram.com/foilcrafts?utm_source=qr&igsh=MWVocHA4MjUyZjB6cg%3D%3D";
     case "linkedin":
-      return "https://linkedin.com";
+      return "https://www.linkedin.com/company/foil-crafts/";
     case "b-37, sector 57, noida":
       return "https://maps.google.com/?q=B-37,+Sector+57,+Noida";
 

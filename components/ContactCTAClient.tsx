@@ -56,9 +56,9 @@ export function ContactCTAClient({
     <>
       <h2 dangerouslySetInnerHTML={{ __html: headline }} />
       <div>
-        <a href="#" className="cta__action">
+        <Link href="/contact" className="cta__action">
           {action}
-        </a>
+        </Link>
         {secondaryAction && (
           <Link href={secondaryAction.href} className="cta__secondary">
             {secondaryAction.label}

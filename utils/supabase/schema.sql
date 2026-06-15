@@ -9,17 +9,19 @@
 -- ─────────────────────────────────────────────────────────────────────────────
 
 create table if not exists public.profiles (
-  id          uuid        primary key references auth.users(id) on delete cascade,
-  email       text        not null unique,
-  full_name   text,
-  company     text,
-  phone       text,
-  status      text        not null default 'pending'
-                          check (status in ('pending', 'approved', 'rejected')),
-  role        text        not null default 'user'
-                          check (role in ('user', 'admin')),
-  created_at  timestamptz not null default now(),
-  approved_at timestamptz
+  id              uuid        primary key references auth.users(id) on delete cascade,
+  email           text        not null unique,
+  full_name       text,
+  company         text,
+  phone           text,
+  status          text        not null default 'pending'
+                              check (status in ('pending', 'approved', 'rejected')),
+  role            text        not null default 'user'
+                              check (role in ('user', 'admin')),
+  created_at      timestamptz not null default now(),
+  approved_at     timestamptz,
+  last_visited_at timestamptz,
+  visit_count     integer     not null default 0
 );
 
 create index if not exists profiles_status_idx on public.profiles (status);

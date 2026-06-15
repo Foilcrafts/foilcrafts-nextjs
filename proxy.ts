@@ -1,10 +1,9 @@
-// Foil Crafts auth middleware (proxy).
-// Runs on every request EXCEPT static assets. Refreshes the Supabase session
-// and gates protected routes based on the user's status in profiles.
+// Foil Crafts auth middleware.
+// Runs on every request EXCEPT static assets. Refreshes the Supabase session,
+// gates protected routes based on the user's status in profiles, and tracks user visits.
 
 import { NextResponse, type NextRequest } from "next/server";
 import { updateSession } from "@/utils/supabase/middleware";
-
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Route classification
@@ -48,6 +47,41 @@ export async function proxy(request: NextRequest) {
   // Refresh the auth cookies on every request — required for Supabase SSR.
   const { supabaseResponse, user, supabase } = await updateSession(request);
 
+  // Fetch profile and check visit tracking in one go if user is logged in.
+  let profile: any = null;
+  if (user) {
+    try {
+      const { data } = await supabase
+        .from("profiles")
+        .select("status, role, last_visited_at, visit_count")
+        .eq("id", user.id)
+        .single();
+      profile = data;
+
+      if (profile) {
+        const now = new Date();
+        const lastVisited = profile.last_visited_at ? new Date(profile.last_visited_at) : null;
+        // Throttle visit tracking to once every 15 minutes to avoid excessive DB writes.
+        if (!lastVisited || (now.getTime() - lastVisited.getTime()) > 15 * 60 * 1000) {
+          const newCount = (profile.visit_count ?? 0) + 1;
+          await supabase
+            .from("profiles")
+            .update({
+              last_visited_at: now.toISOString(),
+              visit_count: newCount
+            })
+            .eq("id", user.id);
+          
+          // Update local profile object so subsequent checks use the updated values.
+          profile.last_visited_at = now.toISOString();
+          profile.visit_count = newCount;
+        }
+      }
+    } catch (err) {
+      console.error("Middleware visit tracking error:", err);
+    }
+  }
+
   // ── Public marketing pages ─────────────────────────────────────────────
   if (PUBLIC_PATHS.includes(pathname)) {
     return supabaseResponse;
@@ -57,11 +91,6 @@ export async function proxy(request: NextRequest) {
   //    /pending-approval (still pending) ───────────────────────────────────
   if (startsWithAny(pathname, AUTH_PATHS)) {
     if (user) {
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("status")
-        .eq("id", user.id)
-        .single();
       if (profile?.status === "approved") {
         return NextResponse.redirect(new URL("/library", request.url));
       }
@@ -85,11 +114,6 @@ export async function proxy(request: NextRequest) {
       url.searchParams.set("next", pathname);
       return NextResponse.redirect(url);
     }
-    const { data: profile } = await supabase
-      .from("profiles")
-      .select("status")
-      .eq("id", user.id)
-      .single();
     if (profile?.status !== "approved") {
       return NextResponse.redirect(new URL("/pending-approval", request.url));
     }
@@ -101,11 +125,6 @@ export async function proxy(request: NextRequest) {
     if (!user) {
       return NextResponse.redirect(new URL("/login", request.url));
     }
-    const { data: profile } = await supabase
-      .from("profiles")
-      .select("role, status")
-      .eq("id", user.id)
-      .single();
     if (profile?.role !== "admin") {
       return NextResponse.redirect(new URL("/", request.url));
     }

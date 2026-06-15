@@ -17,6 +17,8 @@ type Profile = {
   role: string | null;
   created_at: string;
   approved_at: string | null;
+  last_visited_at: string | null;
+  visit_count: number;
 };
 
 type FilterStatus = "pending" | "approved" | "rejected" | "all";
@@ -134,9 +136,9 @@ export default async function AdminPage({
           <div className="admin-table">
             <div className="admin-row admin-row--head">
               <div>Name / Email</div>
-              <div>Company</div>
-              <div>Phone</div>
-              <div>Requested</div>
+              <div>Company / Phone</div>
+              <div>Requested / Approved</div>
+              <div>Activity</div>
               <div style={{ textAlign: "right" }}>Status / Actions</div>
             </div>
             {filtered.map((p) => (
@@ -147,11 +149,36 @@ export default async function AdminPage({
                   </div>
                   <div className="admin-cell__secondary">{p.email}</div>
                 </div>
-                <div className="admin-cell__primary" style={{ fontSize: 16 }}>
-                  {p.company ?? "—"}
+                <div>
+                  <div className="admin-cell__primary" style={{ fontSize: 16 }}>
+                    {p.company ?? "—"}
+                  </div>
+                  <div className="admin-cell__secondary" style={{ fontSize: 13, opacity: 0.8 }}>
+                    {p.phone ?? "—"}
+                  </div>
                 </div>
-                <div className="admin-cell__meta">{p.phone ?? "—"}</div>
-                <div className="admin-cell__meta">{fmt(p.created_at)}</div>
+                <div>
+                  <div className="admin-cell__primary" style={{ fontSize: 14 }}>
+                    <span style={{ color: "var(--ash)", fontSize: 10, display: "block", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 2 }}>Requested</span>
+                    {fmt(p.created_at)}
+                  </div>
+                  {p.approved_at && (
+                    <div className="admin-cell__secondary" style={{ fontSize: 14, marginTop: 6 }}>
+                      <span style={{ color: "var(--ash)", fontSize: 10, display: "block", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 2 }}>Approved</span>
+                      {fmt(p.approved_at)}
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <div className="admin-cell__primary" style={{ fontSize: 14 }}>
+                    <span style={{ color: "var(--ash)", fontSize: 10, display: "block", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 2 }}>Last Visited</span>
+                    {p.last_visited_at ? fmt(p.last_visited_at) : "Never"}
+                  </div>
+                  <div className="admin-cell__secondary" style={{ fontSize: 13, marginTop: 6 }}>
+                    <span style={{ color: "var(--ash)", fontSize: 10, display: "inline-block", textTransform: "uppercase", letterSpacing: "0.05em", marginRight: 6 }}>Visits:</span>
+                    <strong style={{ fontFamily: "var(--mono)", color: "var(--ink)" }}>{p.visit_count ?? 0}</strong>
+                  </div>
+                </div>
                 <div className="admin-actions">
                   {p.status === "pending" && (
                     <>

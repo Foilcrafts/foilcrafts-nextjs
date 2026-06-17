@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/page": "/admin",
+  "/api/asset/[...path]/route": "/api/asset/[...path]",
+  "/auth/confirm/route": "/auth/confirm",
+  "/catalogs/page": "/catalogs",
+  "/contact/page": "/contact",
+  "/cut-plates-embossing/page": "/cut-plates-embossing",
+  "/digital-printing/page": "/digital-printing",
+  "/favicon.ico/route": "/favicon.ico",
+  "/foiling/page": "/foiling",
+  "/forgot-password/page": "/forgot-password",
+  "/library/page": "/library",
+  "/login/page": "/login",
+  "/page": "/",
+  "/pending-approval/page": "/pending-approval",
+  "/reset-password/page": "/reset-password",
+  "/signup/page": "/signup"
+}

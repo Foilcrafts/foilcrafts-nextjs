@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/asset/[...path]/route": "app/api/asset/[...path]/route.js",
+  "/auth/confirm/route": "app/auth/confirm/route.js",
+  "/catalogs/page": "app/catalogs/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/cut-plates-embossing/page": "app/cut-plates-embossing/page.js",
+  "/digital-printing/page": "app/digital-printing/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/foiling/page": "app/foiling/page.js",
+  "/forgot-password/page": "app/forgot-password/page.js",
+  "/library/page": "app/library/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/pending-approval/page": "app/pending-approval/page.js",
+  "/reset-password/page": "app/reset-password/page.js",
+  "/signup/page": "app/signup/page.js"
+}

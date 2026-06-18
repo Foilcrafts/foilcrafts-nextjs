@@ -237,7 +237,7 @@
 
   /* Hero slider (replaces single hero when brief defines `slider`) */
   .hero-slider { position: relative; height: 100vh; min-height: 720px; overflow: hidden; background: var(--ink); }
-  .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; background-size: cover; background-position: center; cursor: pointer; }
+  .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; background-image: var(--bg-desktop); background-size: cover; background-position: center; cursor: pointer; }
   .hero-slide.active { opacity: 1; z-index: 2; }
   .hero-slide::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.18) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,.25) 100%); pointer-events: none; }
   .hero-slider__dots { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 10; display: flex; gap: 14px; }
@@ -481,6 +481,7 @@
     .hero-slider__btn { width: 44px; height: 44px; font-size: 14px; }
     .hero-slider__dots { bottom: 24px; gap: 10px; }
     .hero-slider__dot { width: 28px; }
+    .hero-slide { background-image: var(--bg-mobile); }
 
     /* === Section heads stack === */
     .section-head { grid-template-columns: 1fr; gap: 18px; }

@@ -33,26 +33,31 @@ export const content = {
     "slides": [
       {
         "image": "/images/banners/banner-1-cfm.jpg",
+        "mobileImage": "/images/banners/mobile/banner-1.jpg.jpeg",
         "destination": "/foiling",
         "label": "C.F.M. — the Italian house"
       },
       {
         "image": "/images/banners/banner-2-passion.jpg",
+        "mobileImage": "/images/banners/mobile/banner-2.jpg.jpeg",
         "destination": "/foiling",
         "label": "Design is our passion"
       },
       {
         "image": "/images/banners/banner-3-infinite-choice.jpg",
+        "mobileImage": "/images/banners/mobile/banner-3.jpg.jpeg",
         "destination": "/foiling",
         "label": "Infinite choice of foils"
       },
       {
         "image": "/images/banners/banner-4-vision.jpg",
+        "mobileImage": "/images/banners/mobile/banner-4.jpg.jpeg",
         "destination": "/digital-printing",
         "label": "Digital Printing"
       },
       {
         "image": "/images/banners/banner-5-made-in-india.jpg",
+        "mobileImage": "/images/banners/mobile/banner-5.jpg.jpeg",
         "destination": "/contact#customer-login",
         "label": "Made in India"
       }

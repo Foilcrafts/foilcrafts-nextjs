@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 
 type Slide = {
   image: string;
+  mobileImage?: string;
   destination?: string;
   label?: string;
 };
@@ -26,7 +27,12 @@ export function HeroSlider({ slides }: { slides: readonly Slide[] }) {
           key={i}
           className={`hero-slide${i === idx ? " active" : ""}`}
           href={s.destination ?? "#"}
-          style={{ backgroundImage: `url(${s.image})` }}
+          style={
+            {
+              "--bg-desktop": `url(${s.image})`,
+              "--bg-mobile": `url(${s.mobileImage ?? s.image})`,
+            } as React.CSSProperties
+          }
           aria-label={s.label ?? `Slide ${i + 1}`}
         />
       ))}

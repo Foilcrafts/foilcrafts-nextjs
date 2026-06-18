@@ -1,0 +1,2178 @@
+module.exports = [
+"[next]/internal/font/google/fraunces_2260d444.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "className": "fraunces_2260d444-module__X0ml3W__className",
+  "variable": "fraunces_2260d444-module__X0ml3W__variable",
+});
+}),
+"[next]/internal/font/google/fraunces_2260d444.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[next]/internal/font/google/fraunces_2260d444.module.css [app-rsc] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'Fraunces', 'Fraunces Fallback'",
+        fontStyle: "normal"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+}),
+"[next]/internal/font/google/inter_e5f7fbc.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "className": "inter_e5f7fbc-module__noqLaG__className",
+  "variable": "inter_e5f7fbc-module__noqLaG__variable",
+});
+}),
+"[next]/internal/font/google/inter_e5f7fbc.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[next]/internal/font/google/inter_e5f7fbc.module.css [app-rsc] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'Inter', 'Inter Fallback'",
+        fontStyle: "normal"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+}),
+"[next]/internal/font/google/jetbrains_mono_3bc36c43.module.css [app-rsc] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "className": "jetbrains_mono_3bc36c43-module__zZg_Ua__className",
+  "variable": "jetbrains_mono_3bc36c43-module__zZg_Ua__variable",
+});
+}),
+"[next]/internal/font/google/jetbrains_mono_3bc36c43.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_context__.i("[next]/internal/font/google/jetbrains_mono_3bc36c43.module.css [app-rsc] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'JetBrains Mono', 'JetBrains Mono Fallback'",
+        fontStyle: "normal"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+}),
+"[project]/lib/content.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Auto-generated from brief.yaml — DO NOT edit by hand.
+// Re-generate via: python3 scripts/build-content.py
+// Source of truth for site content. Imports across all pages.
+__turbopack_context__.s([
+    "content",
+    ()=>content
+]);
+const content = {
+    "brand": {
+        "name": "Foil Crafts",
+        "slug": "foilcrafts",
+        "tagline": "Transferring Value To Surface",
+        "description": "Italian transfer foils, finished leather, and bespoke leather goods — from a single Noida atelier to forty-three countries.",
+        "meta_eyebrows": [
+            "Est. 1962 · Noida, India",
+            "C.F.M. Authorised Distributor"
+        ],
+        "coords": {
+            "lat": "N 28°36′",
+            "lng": "E 77°22′"
+        },
+        "address_line": "B-37 · Sector 57 · Noida",
+        "logo": {
+            "primary": "/images/brand/logo.png",
+            "light": "/images/brand/logo-full-light.png",
+            "dark": "/images/brand/logo-full.jpg"
+        }
+    },
+    "palette": {
+        "bone": "#F2EFE8",
+        "ink": "#0E0E0C",
+        "accent": "#5C1A1B",
+        "gold": "#C8A878"
+    },
+    "slider": {
+        "slides": [
+            {
+                "image": "/images/banners/banner-1-cfm.jpg",
+                "mobileImage": "/images/banners/mobile/banner-1.jpg.jpeg",
+                "destination": "/foiling",
+                "label": "C.F.M. — the Italian house"
+            },
+            {
+                "image": "/images/banners/banner-2-passion.jpg",
+                "mobileImage": "/images/banners/mobile/banner-2.jpg.jpeg",
+                "destination": "/foiling",
+                "label": "Design is our passion"
+            },
+            {
+                "image": "/images/banners/banner-3-infinite-choice.jpg",
+                "mobileImage": "/images/banners/mobile/banner-3.jpg.jpeg",
+                "destination": "/foiling",
+                "label": "Infinite choice of foils"
+            },
+            {
+                "image": "/images/banners/banner-4-vision.jpg",
+                "mobileImage": "/images/banners/mobile/banner-4.jpg.jpeg",
+                "destination": "/digital-printing",
+                "label": "Digital Printing"
+            },
+            {
+                "image": "/images/banners/banner-5-made-in-india.jpg",
+                "mobileImage": "/images/banners/mobile/banner-5.jpg.jpeg",
+                "destination": "/contact#customer-login",
+                "label": "Made in India"
+            }
+        ]
+    },
+    "nav_menu": [
+        {
+            "anchor": "capabilities",
+            "label": "Capabilities"
+        },
+        {
+            "anchor": "about-1",
+            "label": "About"
+        },
+        {
+            "anchor": "process",
+            "label": "Process"
+        },
+        {
+            "anchor": "founders",
+            "label": "Founders"
+        },
+        {
+            "anchor": "collections",
+            "label": "Collections"
+        },
+        {
+            "anchor": "catalogs",
+            "label": "Catalogs"
+        }
+    ],
+    "pages": [
+        {
+            "slug": "index",
+            "label": "Home",
+            "sections": [
+                "slider",
+                "marquee",
+                "manifesto",
+                "capabilities",
+                "catalogs",
+                "contact_cta"
+            ]
+        },
+        {
+            "slug": "about",
+            "label": "About",
+            "hero": {
+                "eyebrow": "01 — About",
+                "title": "Italian foils.<br><em>Indian craftsmanship.</em>",
+                "image": "/images/about/workshop-wide.jpg",
+                "sub": "Three generations of one trade, in one Sector 57 atelier. Authorised C.F.M. distributor since 1994."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "about_block_1",
+                "about_block_2",
+                "process_grid",
+                "founders",
+                "heritage",
+                "contact_cta"
+            ]
+        },
+        {
+            "slug": "foiling",
+            "label": "Foiling",
+            "hero": {
+                "eyebrow": "02 — Foiling",
+                "title": "Nineteen foiling families.<br><em>One Italian mill.</em>",
+                "image": "/images/foiling/ft-metallic/Compressed/FC-1063.jpg",
+                "sub": "The complete C.F.M. transfer-foil archive we currently stock — metallic, holographic, animal, abstract, crackle, floral, acid, distress, hand-painted, small-print, stripe, tie & dye, transparent patent, wrinkle, camo, checks & fabric, children prints, denim, and snake & python."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "collections",
+                "contact_cta"
+            ],
+            "collections_filter": [
+                "ft-metallic",
+                "animal-prints",
+                "abstract",
+                "holographic",
+                "crackles",
+                "florals",
+                "acid-foils",
+                "distress",
+                "hand-painted",
+                "small-prints",
+                "stripes",
+                "tie-and-dye",
+                "transparent-patents",
+                "wrinkled",
+                "camo-pattern",
+                "checks-and-fabric",
+                "children-prints",
+                "denim",
+                "snake-and-python"
+            ]
+        },
+        {
+            "slug": "digital-printing",
+            "label": "Digital Printing",
+            "hero": {
+                "eyebrow": "03 — Digital Printing",
+                "title": "Direct-to-leather<br><em>digital printing.</em>",
+                "image": "/images/digital-printing/FC-1567.jpg",
+                "sub": "Eight curated prints from our digital direct-to-hide capability — first shown at IILF 23. Custom artwork accepted for production."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "items_inline",
+                "contact_cta"
+            ],
+            "items_inline_from": "digital-printing"
+        },
+        {
+            "slug": "cut-plates-embossing",
+            "label": "Cut Plates and Embossing",
+            "hero": {
+                "eyebrow": "04 — Cut Plates and Embossing",
+                "title": "Cut plates &amp;<br><em>embossing dies.</em>",
+                "image": "/images/cut-plates/CP-001.jpg",
+                "sub": "Our in-house cut and embossing library — 24 cut plates and 23 embossing dies, used independently of foiling or as the structural layer beneath it."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "items_inline",
+                "contact_cta"
+            ],
+            "items_inline_from": "cut-plates"
+        },
+        {
+            "slug": "catalogs",
+            "label": "Catalogs",
+            "hero": {
+                "eyebrow": "05 — Catalogs",
+                "title": "Explore our<br><em>catalogs.</em>",
+                "image": "/images/about/embossing-rolls.jpg",
+                "sub": "Collection 26 and Collection 26/27 — the full archive on paper, ready for your design table."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "catalogs",
+                "contact_cta"
+            ]
+        },
+        {
+            "slug": "contact",
+            "label": "Contact",
+            "hero": {
+                "eyebrow": "06 — Contact",
+                "title": "Write to the<br><em>atelier.</em>",
+                "image": "/images/about/founders-conversation.jpg",
+                "sub": "Samples, custom development, trade enquiries — the founders read every inbound."
+            },
+            "sections": [
+                "page_hero",
+                "marquee",
+                "contact_cta",
+                "customer_login_section"
+            ]
+        }
+    ],
+    "customer_login": {
+        "href": "#customer-login",
+        "label": "Customer Login",
+        "heading": "Customer Portal",
+        "copy": "Existing trade clients — request order history, sample archives, and re-order access. New buyer? Use the inquiry form above and we'll provision your account within one business day.",
+        "portal_href": "mailto:info@foilcrafts.com?subject=Customer%20Portal%20Access%20Request",
+        "action": "Sign in → request access"
+    },
+    "marquee": [
+        "ITALIAN FOILS",
+        "INDIAN CRAFTSMANSHIP",
+        "C.F.M. DISTRIBUTOR",
+        "TRANSFERRING VALUE TO SURFACE",
+        "EST. 1962",
+        "NOIDA · INDIA",
+        "47 CUT & EMBOSSING PLATES",
+        "19 FOILING FAMILIES"
+    ],
+    "manifesto": "For three generations we've held one trade — pressing Italian transfer foil onto leather, by hand, in Noida. We are the authorised distributor of <span class=\"acc\">C.F.M.</span>, the Lombardy mill whose foils sit beneath the finish of the world's most quietly recognised leather goods. We are not the brand on the bag. We are the <em>finish</em> on the leather.\n",
+    "capabilities": {
+        "heading": "Three crafts.<br><em>One atelier.</em>\n",
+        "copy": "Every order leaves the same Sector 57 floor — whether it's transfer foil, digital print on hide, or in-house cut and emboss. Three crafts, one quality bar.",
+        "items": [
+            {
+                "number": "/01",
+                "sub": "C.F.M. Transfer Foils",
+                "title": "Foiling",
+                "image": "/images/hero/card_foiling.jpg",
+                "href": "/foiling"
+            },
+            {
+                "number": "/02",
+                "sub": "Direct-to-leather",
+                "title": "Digital Printing",
+                "image": "/images/hero/card_digital.jpg",
+                "href": "/digital-printing"
+            },
+            {
+                "number": "/03",
+                "sub": "In-house dies",
+                "title": "Cut Plates and Embossing",
+                "image": "/images/hero/card_cut.jpg",
+                "href": "/cut-plates-embossing"
+            }
+        ]
+    },
+    "about_block_1": {
+        "eyebrow": "01 — Identity",
+        "heading": "Italian foils.<br><em>Indian craftsmanship.</em>\n",
+        "image": "/images/about/process-foiling-machine-1.jpg",
+        "paragraphs": [
+            "C.F.M. — Cartiere Filtrazioni Materie, Lombardy, Italy — has supplied transfer foils to the European leather trade for over half a century. Since 1994, every roll of C.F.M. foil that arrives in India arrives here, at B-37, Sector 57, Noida.",
+            "What leaves our floor is the same craft tradition the mill protects in Italy, pressed by hands that have inherited the discipline across three generations. <em>The foil is Italian. The finish is ours.</em>"
+        ]
+    },
+    "about_block_2": {
+        "eyebrow": "02 — Method",
+        "heading": "From foil roll<br><em>to finished hide.</em>\n",
+        "image": "/images/about/process-craftsman-station.jpg",
+        "paragraphs": [
+            "Every metre we ship begins at the craftsman station. A roll of C.F.M. foil meets a hide of full-grain calf, lamb, or goat. Pressure, temperature, and dwell are measured against the previous run — so that batch four reads identical to batch one, a year and an ocean apart.",
+            "We do not subcontract the press. We do not ship the foil onward. Every transfer happens under our roof, and every hide leaves the building hand-finished and packed for export."
+        ]
+    },
+    "process_grid": {
+        "eyebrow": "03 — Process Grid",
+        "heading": "Four stations.<br><em>One press floor.</em>\n",
+        "copy": "From foiling press to dispatch — the four working stations that handle every order, in the order each metre passes through them.",
+        "figures": [
+            {
+                "label": "01 — Foiling Press",
+                "title": "The press floor",
+                "image": "/images/about/workshop-wide.jpg"
+            },
+            {
+                "label": "02 — Hand Cutting",
+                "title": "Hand-cutting the foiled hide",
+                "image": "/images/about/process-hand-cutting-1.jpg"
+            },
+            {
+                "label": "03 — Dye Spray",
+                "title": "In-house dye spray station",
+                "image": "/images/about/process-dye-spray.jpg"
+            },
+            {
+                "label": "04 — Worker At Station",
+                "title": "Quality check before pack",
+                "image": "/images/about/process-foiling-machine-2.jpg"
+            }
+        ]
+    },
+    "founders": {
+        "eyebrow": "04 — Founders",
+        "heading": "Three generations.<br><em>One conversation.</em>\n",
+        "image": "/images/about/founders-conversation.jpg",
+        "paragraphs": [
+            "The house was founded by a craftsman with a single press, in a single room. It is run today by his grandson — Gaurav Kapoor — out of a Sector 57 atelier that has grown to twelve thousand square feet without ever changing its principles.",
+            "Trade clients across forty-three countries deal with the family directly. There is no salesforce between you and the press."
+        ],
+        "signature": "Gaurav Kapoor, Foil Crafts"
+    },
+    "heritage": {
+        "eyebrow": "05 — Heritage",
+        "heading": "Sixty-two years.<br><em>One trade.</em>\n",
+        "copy": "The shape of an atelier that has never diversified out of its single craft.",
+        "stats": [
+            {
+                "num": "<em>62</em>",
+                "label": "Years",
+                "copy": "Since the first foil press was set in motion."
+            },
+            {
+                "num": "14",
+                "label": "Foiling Families",
+                "copy": "From metallic to hand-painted — every C.F.M. discipline."
+            },
+            {
+                "num": "47",
+                "label": "Cut & Emboss Plates",
+                "copy": "In-house die library, available independently of foiling."
+            },
+            {
+                "num": "43<em>+</em>",
+                "label": "Countries",
+                "copy": "Where Foil Crafts material currently lives in finished product."
+            }
+        ]
+    },
+    "collections_section": {
+        "heading": "Nineteen foiling families.<br><em>Two crafts beside them.</em>\n",
+        "copy": "Every family below is a live archive. Browse a card for C.F.M. article numbers and atelier-shot production samples."
+    },
+    "collections": [
+        {
+            "slug": "ft-metallic",
+            "size": "sm",
+            "number": "/01",
+            "title_short": "FT Metallic",
+            "title": "FT <em>Metallic</em>",
+            "eyebrow": "/01 — Foiling Family",
+            "count": "8 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/ft-metallic/Compressed/FC-1012.jpg",
+            "lead": "The original. The reason the house exists. Pure metallic transfer foils — golds, silvers, bronzes, gunmetals — direct from C.F.M.'s Italian mill.",
+            "body": "Each shade is index-matched batch-to-batch. Custom shades on a four-week turnaround for established brand partners.",
+            "items": [
+                {
+                    "name": "FC-1012",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1012.jpg"
+                },
+                {
+                    "name": "FC-1013",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1013.jpg"
+                },
+                {
+                    "name": "FC-1053",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1053.jpg"
+                },
+                {
+                    "name": "FC-1055",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1055.jpg"
+                },
+                {
+                    "name": "FC-1063",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1063.jpg"
+                },
+                {
+                    "name": "FC-1126",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1126.jpg"
+                },
+                {
+                    "name": "FC-1146",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1146.jpg"
+                },
+                {
+                    "name": "FC-1147",
+                    "code": "Metallic",
+                    "image": "/images/foiling/ft-metallic/Compressed/FC-1147.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "animal-prints",
+            "size": "sm",
+            "number": "/02",
+            "title_short": "Animal Prints",
+            "title": "Animal <em>Prints</em>",
+            "eyebrow": "/02 — Foiling Family",
+            "count": "9 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/animal-prints/Compressed/FC-1015.jpg",
+            "lead": "Croco, python, leopard, ostrich. The exotic-animal lexicon, rendered in foil — for houses that need the silhouette without the hide.",
+            "body": "Pattern depth and foil colour specified independently. Custom dies developed in-house for orders above 500 linear metres.",
+            "items": [
+                {
+                    "name": "FC-1015",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1015.jpg"
+                },
+                {
+                    "name": "FC-1016",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1016.jpg"
+                },
+                {
+                    "name": "FC-1017",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1017.jpg"
+                },
+                {
+                    "name": "FC-1021",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1021.jpg"
+                },
+                {
+                    "name": "FC-1025",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1025.jpg"
+                },
+                {
+                    "name": "FC-1026",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1026.jpg"
+                },
+                {
+                    "name": "FC-1119",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1119.jpg"
+                },
+                {
+                    "name": "FC-1123",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1123.jpg"
+                },
+                {
+                    "name": "FC-1155",
+                    "code": "Animal",
+                    "image": "/images/foiling/animal-prints/Compressed/FC-1155.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "abstract",
+            "size": "sm",
+            "number": "/03",
+            "title_short": "Abstract",
+            "title": "Abstract <em>Foils</em>",
+            "eyebrow": "/03 — Foiling Family",
+            "count": "9 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/abstract/Compressed/FC-1004.jpg",
+            "lead": "Painterly, irregular, modernist. The library houses uses when the brief is 'unrecognisable but quietly luxurious'.",
+            "body": "Best paired with full-grain calf to preserve the painterly edge under foil.",
+            "items": [
+                {
+                    "name": "FC-1004",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1004.jpg"
+                },
+                {
+                    "name": "FC-1059",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1059.jpg"
+                },
+                {
+                    "name": "FC-1072",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1072.jpg"
+                },
+                {
+                    "name": "FC-1110",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1110.jpg"
+                },
+                {
+                    "name": "FC-1120",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1120.jpg"
+                },
+                {
+                    "name": "FC-1124",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1124.jpg"
+                },
+                {
+                    "name": "FC-1131",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1131.jpg"
+                },
+                {
+                    "name": "FC-1133",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1133.jpg"
+                },
+                {
+                    "name": "FC-1158",
+                    "code": "Abstract",
+                    "image": "/images/foiling/abstract/Compressed/FC-1158.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "holographic",
+            "size": "sm",
+            "number": "/04",
+            "title_short": "Holographic",
+            "title": "Holographic <em>Foils</em>",
+            "eyebrow": "/04 — Foiling Family",
+            "count": "3 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/holographic/Compressed/FC-1149-50-51.jpg",
+            "lead": "Light made material. C.F.M. diffraction patterns engineered at the molecular level — rainbow, linear, fragmented.",
+            "body": "Custom holography developed for couture houses on six-week timelines. NDAs standard.",
+            "items": [
+                {
+                    "name": "FC-1149-50-51",
+                    "code": "Holo",
+                    "image": "/images/foiling/holographic/Compressed/FC-1149-50-51.jpg"
+                },
+                {
+                    "name": "FC-1154",
+                    "code": "Holo",
+                    "image": "/images/foiling/holographic/Compressed/FC-1154.jpg"
+                },
+                {
+                    "name": "FC-1157",
+                    "code": "Holo",
+                    "image": "/images/foiling/holographic/Compressed/FC-1157.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "crackles",
+            "size": "sm",
+            "number": "/05",
+            "title_short": "Crackles",
+            "title": "Crackle <em>Foils</em>",
+            "eyebrow": "/05 — Foiling Family",
+            "count": "6 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/crackles/Compressed/FC-1049.jpg",
+            "lead": "A controlled fracture in the foil layer — the heritage finish that reads as worked, weathered, real.",
+            "body": "Hand-pressed only. Each metre will be visually unique by design.",
+            "items": [
+                {
+                    "name": "FC-1049",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1049.jpg"
+                },
+                {
+                    "name": "FC-1114",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1114.jpg"
+                },
+                {
+                    "name": "FC-1115",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1115.jpg"
+                },
+                {
+                    "name": "FC-1136",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1136.jpg"
+                },
+                {
+                    "name": "FC-1137",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1137.jpg"
+                },
+                {
+                    "name": "FC-1138",
+                    "code": "Crackle",
+                    "image": "/images/foiling/crackles/Compressed/FC-1138.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "florals",
+            "size": "sm",
+            "number": "/06",
+            "title_short": "Florals",
+            "title": "Floral <em>Foils</em>",
+            "eyebrow": "/06 — Foiling Family",
+            "count": "7 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/florals/Compressed/FC-1033.jpg",
+            "lead": "Romantic, baroque, Florentine. The repertoire weddings, couture, and resort collections quietly rely on.",
+            "body": "Available across the full colour library — including dual-tone foil-on-foil techniques.",
+            "items": [
+                {
+                    "name": "FC-1033",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1033.jpg"
+                },
+                {
+                    "name": "FC-1061",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1061.jpg"
+                },
+                {
+                    "name": "FC-1062",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1062.jpg"
+                },
+                {
+                    "name": "FC-1070",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1070.jpg"
+                },
+                {
+                    "name": "FC-1116",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1116.jpg"
+                },
+                {
+                    "name": "FC-1117",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1117.jpg"
+                },
+                {
+                    "name": "FC-1118",
+                    "code": "Floral",
+                    "image": "/images/foiling/florals/Compressed/FC-1118.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "acid-foils",
+            "size": "sm",
+            "number": "/07",
+            "title_short": "Acid Foils",
+            "title": "Acid <em>Foils</em>",
+            "eyebrow": "/07 — Foiling Family",
+            "count": "8 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/acid-foils/Compressed/FC-1031.jpg",
+            "lead": "A chemical-relief technique that creates an etched, mottled, acid-bath aesthetic — the closest a foil can come to feeling like patina.",
+            "body": "Works equally well as a full panel or as a stitched accent.",
+            "items": [
+                {
+                    "name": "FC-1031",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1031.jpg"
+                },
+                {
+                    "name": "FC-1032",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1032.jpg"
+                },
+                {
+                    "name": "FC-1034",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1034 check.jpg"
+                },
+                {
+                    "name": "FC-1037",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1037.jpg"
+                },
+                {
+                    "name": "FC-1038",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1038.jpg"
+                },
+                {
+                    "name": "FC-1039",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1039.jpg"
+                },
+                {
+                    "name": "FC-1040",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1040.jpg"
+                },
+                {
+                    "name": "FC-1041",
+                    "code": "Acid",
+                    "image": "/images/foiling/acid-foils/Compressed/FC-1041.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "distress",
+            "size": "sm",
+            "number": "/08",
+            "title_short": "Distress",
+            "title": "Distress <em>Foils</em>",
+            "eyebrow": "/08 — Foiling Family",
+            "count": "4 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/distress/Compressed/FC-1001.jpg",
+            "lead": "Worn-in by intention. Foils that read as ten-years-loved on the day they're pressed.",
+            "body": "A favourite for vintage-leaning brands and storied accessory lines.",
+            "items": [
+                {
+                    "name": "FC-1001",
+                    "code": "Distress",
+                    "image": "/images/foiling/distress/Compressed/FC-1001.jpg"
+                },
+                {
+                    "name": "FC-1002",
+                    "code": "Distress",
+                    "image": "/images/foiling/distress/Compressed/FC-1002.jpg"
+                },
+                {
+                    "name": "FC-1003",
+                    "code": "Distress",
+                    "image": "/images/foiling/distress/Compressed/FC-1003.jpg"
+                },
+                {
+                    "name": "FC-1006",
+                    "code": "Distress",
+                    "image": "/images/foiling/distress/Compressed/FC-1006.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "hand-painted",
+            "size": "sm",
+            "number": "/09",
+            "title_short": "Hand Painted",
+            "title": "Hand <em>Painted</em>",
+            "eyebrow": "/09 — Foiling Family",
+            "count": "4 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/hand-painted/Compressed/FC-1035.jpg",
+            "lead": "Foil meets brushstroke. Layered, painterly compositions — each metre handled individually at the press.",
+            "body": "Lowest yield, highest craft. MOQ on application.",
+            "items": [
+                {
+                    "name": "FC-1035",
+                    "code": "Painted",
+                    "image": "/images/foiling/hand-painted/Compressed/FC-1035.jpg"
+                },
+                {
+                    "name": "FC-1036",
+                    "code": "Painted",
+                    "image": "/images/foiling/hand-painted/Compressed/FC-1036.jpg"
+                },
+                {
+                    "name": "FC-1073",
+                    "code": "Painted",
+                    "image": "/images/foiling/hand-painted/Compressed/FC-1073.jpg"
+                },
+                {
+                    "name": "FC-1159",
+                    "code": "Painted",
+                    "image": "/images/foiling/hand-painted/Compressed/FC-1159.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "small-prints",
+            "size": "sm",
+            "number": "/10",
+            "title_short": "Small Prints",
+            "title": "Small <em>Prints</em>",
+            "eyebrow": "/10 — Foiling Family",
+            "count": "5 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/small-prints/FC-1056.jpg",
+            "lead": "Tight repeat, miniature scale. For lining, trims, and small-leather-goods panels where the eye lingers close.",
+            "body": "Pairs well with full-grain lambskin for accessory work.",
+            "items": [
+                {
+                    "name": "FC-1056",
+                    "code": "Small Print",
+                    "image": "/images/foiling/small-prints/FC-1056.jpg"
+                },
+                {
+                    "name": "FC-1058",
+                    "code": "Small Print",
+                    "image": "/images/foiling/small-prints/FC-1058.jpg"
+                },
+                {
+                    "name": "FC-1122",
+                    "code": "Small Print",
+                    "image": "/images/foiling/small-prints/FC-1122.jpg"
+                },
+                {
+                    "name": "FC-1135",
+                    "code": "Small Print",
+                    "image": "/images/foiling/small-prints/FC-1135.jpg"
+                },
+                {
+                    "name": "FC-1156",
+                    "code": "Small Print",
+                    "image": "/images/foiling/small-prints/FC-1156.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "stripes",
+            "size": "sm",
+            "number": "/11",
+            "title_short": "Stripes",
+            "title": "Stripe <em>Foils</em>",
+            "eyebrow": "/11 — Foiling Family",
+            "count": "3 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/stripes/Compressed/FC-1007.jpg",
+            "lead": "Linear geometry. The straightforward, architectural option — clean parallels, foil on foil.",
+            "body": "Cuts cleanly for panelled leather goods and tailored trims.",
+            "items": [
+                {
+                    "name": "FC-1007",
+                    "code": "Stripe",
+                    "image": "/images/foiling/stripes/Compressed/FC-1007.jpg"
+                },
+                {
+                    "name": "FC-1008",
+                    "code": "Stripe",
+                    "image": "/images/foiling/stripes/Compressed/FC-1008.jpg"
+                },
+                {
+                    "name": "FC-1125",
+                    "code": "Stripe",
+                    "image": "/images/foiling/stripes/Compressed/FC-1125.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "tie-and-dye",
+            "size": "sm",
+            "number": "/12",
+            "title_short": "Tie & Dye",
+            "title": "Tie &amp; <em>Dye</em>",
+            "eyebrow": "/12 — Foiling Family",
+            "count": "4 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/tie-and-dye/Compressed/FC-1042.jpg",
+            "lead": "Watery, gradient, atmospheric. Foils that move across the surface like a wash, never repeating exactly.",
+            "body": "Hand-pressed; expect natural variation across the run.",
+            "items": [
+                {
+                    "name": "FC-1042",
+                    "code": "Tie & Dye",
+                    "image": "/images/foiling/tie-and-dye/Compressed/FC-1042.jpg"
+                },
+                {
+                    "name": "FC-1134",
+                    "code": "Tie & Dye",
+                    "image": "/images/foiling/tie-and-dye/Compressed/FC-1134.jpg"
+                },
+                {
+                    "name": "FC-1161",
+                    "code": "Tie & Dye",
+                    "image": "/images/foiling/tie-and-dye/Compressed/FC-1161.jpg"
+                },
+                {
+                    "name": "FC-1162",
+                    "code": "Tie & Dye",
+                    "image": "/images/foiling/tie-and-dye/Compressed/FC-1162.JPG"
+                }
+            ]
+        },
+        {
+            "slug": "transparent-patents",
+            "size": "sm",
+            "number": "/13",
+            "title_short": "Transparent Patents",
+            "title": "Transparent <em>Patents</em>",
+            "eyebrow": "/13 — Foiling Family",
+            "count": "5 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/transparent-patents/Compressed/FC-1140.jpg",
+            "lead": "High-gloss transparent patent foils — a glass-like top layer that lets the base leather speak through.",
+            "body": "Excellent for footwear, evening-bag panels, and ready-to-wear hardware.",
+            "items": [
+                {
+                    "name": "FC-1140",
+                    "code": "Patent",
+                    "image": "/images/foiling/transparent-patents/Compressed/FC-1140.jpg"
+                },
+                {
+                    "name": "FC-1141",
+                    "code": "Patent",
+                    "image": "/images/foiling/transparent-patents/Compressed/FC-1141.jpg"
+                },
+                {
+                    "name": "FC-1142",
+                    "code": "Patent",
+                    "image": "/images/foiling/transparent-patents/Compressed/FC-1142.jpg"
+                },
+                {
+                    "name": "FC-1143",
+                    "code": "Patent",
+                    "image": "/images/foiling/transparent-patents/Compressed/FC-1143.jpg"
+                },
+                {
+                    "name": "FC-1144",
+                    "code": "Patent",
+                    "image": "/images/foiling/transparent-patents/Compressed/FC-1144.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "wrinkled",
+            "size": "sm",
+            "number": "/14",
+            "title_short": "Wrinkled",
+            "title": "Wrinkle <em>Foils</em>",
+            "eyebrow": "/14 — Foiling Family",
+            "count": "5 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/wrinkled/Compressed/FC-1045.jpg",
+            "lead": "A deliberate, textural creasing — foil that reads as gathered fabric or pressed metal foil.",
+            "body": "Pairs strikingly with structural bag silhouettes.",
+            "items": [
+                {
+                    "name": "FC-1045",
+                    "code": "Wrinkle",
+                    "image": "/images/foiling/wrinkled/Compressed/FC-1045.jpg"
+                },
+                {
+                    "name": "FC-1046",
+                    "code": "Wrinkle",
+                    "image": "/images/foiling/wrinkled/Compressed/FC-1046.jpg"
+                },
+                {
+                    "name": "FC-1047",
+                    "code": "Wrinkle",
+                    "image": "/images/foiling/wrinkled/Compressed/FC-1047.jpg"
+                },
+                {
+                    "name": "FC-1139",
+                    "code": "Wrinkle",
+                    "image": "/images/foiling/wrinkled/Compressed/FC-1139.jpg"
+                },
+                {
+                    "name": "FC-1152",
+                    "code": "Wrinkle",
+                    "image": "/images/foiling/wrinkled/Compressed/FC-1152.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "camo-pattern",
+            "size": "sm",
+            "number": "/15",
+            "title_short": "Camo Pattern",
+            "title": "Camo <em>Pattern</em>",
+            "eyebrow": "/15 — Foiling Family",
+            "count": "11 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/camo-pattern/FC-714.JPG",
+            "lead": "Military-inspired camouflage foils — woodland, desert, urban. The disruptive pattern library for streetwear, outerwear, and accessories.",
+            "body": "Available in metallic and matte variants across the full camo spectrum.",
+            "items": [
+                {
+                    "name": "FC-714",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-714.JPG"
+                },
+                {
+                    "name": "FC-715",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-715 (1).JPG"
+                },
+                {
+                    "name": "FC-716",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-716.JPG"
+                },
+                {
+                    "name": "FC-717",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-717.JPG"
+                },
+                {
+                    "name": "FC-718",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-718.JPG"
+                },
+                {
+                    "name": "FC-720",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-720.JPG"
+                },
+                {
+                    "name": "FC-721",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-721.jpg"
+                },
+                {
+                    "name": "FC-722",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-722.jpg"
+                },
+                {
+                    "name": "FC-723",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-723.jpg"
+                },
+                {
+                    "name": "FC-724",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-724.jpg"
+                },
+                {
+                    "name": "FC-1038",
+                    "code": "Camo",
+                    "image": "/images/foiling/camo-pattern/FC-1038.JPG"
+                }
+            ]
+        },
+        {
+            "slug": "checks-and-fabric",
+            "size": "sm",
+            "number": "/16",
+            "title_short": "Checks & Fabric",
+            "title": "Checks &amp; <em>Fabric</em>",
+            "eyebrow": "/16 — Foiling Family",
+            "count": "3 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/checks-and-fabric/FC-708.jpg",
+            "lead": "Woven checks, tweed textures, and fabric-grain foils — textile patterns pressed into leather via C.F.M. transfer.",
+            "body": "A crossover between tailoring and leather craft, favoured for small leather goods and men's accessories.",
+            "items": [
+                {
+                    "name": "FC-708",
+                    "code": "Checks",
+                    "image": "/images/foiling/checks-and-fabric/FC-708.jpg"
+                },
+                {
+                    "name": "FC-709",
+                    "code": "Checks",
+                    "image": "/images/foiling/checks-and-fabric/FC-709.jpg"
+                },
+                {
+                    "name": "FC-711",
+                    "code": "Fabric",
+                    "image": "/images/foiling/checks-and-fabric/FC-711.JPG"
+                }
+            ]
+        },
+        {
+            "slug": "children-prints",
+            "size": "sm",
+            "number": "/17",
+            "title_short": "Children Prints",
+            "title": "Children <em>Prints</em>",
+            "eyebrow": "/17 — Foiling Family",
+            "count": "3 curated articles",
+            "origin": "Origin · Noida, India",
+            "hero_image": "/images/foiling/children-prints/aw25.jpg",
+            "lead": "Playful, colourful foil patterns designed for children's footwear, accessories, and junior leather goods.",
+            "body": "Custom motif development available for brand-specific artwork.",
+            "items": [
+                {
+                    "name": "FC-1584",
+                    "code": "Children",
+                    "image": "/images/foiling/children-prints/FC-1584.JPG"
+                },
+                {
+                    "name": "FC-1600",
+                    "code": "Children",
+                    "image": "/images/foiling/children-prints/FC-1600.JPG"
+                },
+                {
+                    "name": "AW25",
+                    "code": "Children",
+                    "image": "/images/foiling/children-prints/aw25.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "denim",
+            "size": "sm",
+            "number": "/18",
+            "title_short": "Denim",
+            "title": "Denim <em>Foils</em>",
+            "eyebrow": "/18 — Foiling Family",
+            "count": "1 curated article",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/denim/FC-703.jpg",
+            "lead": "The warp-and-weft of raw denim, rendered as a C.F.M. transfer foil — for leather that reads like indigo selvedge.",
+            "body": "A singular, statement foil. Best applied to full-grain calf for accessory and footwear panels.",
+            "items": [
+                {
+                    "name": "FC-703",
+                    "code": "Denim",
+                    "image": "/images/foiling/denim/FC-703.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "snake-and-python",
+            "size": "sm",
+            "number": "/19",
+            "title_short": "Snake & Python",
+            "title": "Snake &amp; <em>Python</em>",
+            "eyebrow": "/19 — Foiling Family",
+            "count": "12 curated articles",
+            "origin": "Origin · Lombardy, Italy",
+            "hero_image": "/images/foiling/snake-and-python/FC-741.jpg",
+            "lead": "Scaled, sinuous, hypnotic. The reptilian foil archive — python, cobra, and water snake — for houses that need the exotic silhouette in foil.",
+            "body": "Available in metallic, matte, and holographic finishes. Custom scale sizing on request.",
+            "items": [
+                {
+                    "name": "FC-741",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-741.jpg"
+                },
+                {
+                    "name": "FC-742",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-742.jpg"
+                },
+                {
+                    "name": "FC-743",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-743.jpg"
+                },
+                {
+                    "name": "FC-744",
+                    "code": "Python",
+                    "image": "/images/foiling/snake-and-python/FC-744.jpg"
+                },
+                {
+                    "name": "FC-745",
+                    "code": "Python",
+                    "image": "/images/foiling/snake-and-python/FC-745.jpg"
+                },
+                {
+                    "name": "FC-1015",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-1015.JPG"
+                },
+                {
+                    "name": "FC-1016",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-1016.JPG"
+                },
+                {
+                    "name": "FC-1017",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-1017.JPG"
+                },
+                {
+                    "name": "FC-1018",
+                    "code": "Python",
+                    "image": "/images/foiling/snake-and-python/FC-1018.JPG"
+                },
+                {
+                    "name": "FC-1019",
+                    "code": "Python",
+                    "image": "/images/foiling/snake-and-python/FC-1019.JPG"
+                },
+                {
+                    "name": "FC-1020",
+                    "code": "Python",
+                    "image": "/images/foiling/snake-and-python/FC-1020.JPG"
+                },
+                {
+                    "name": "FC-1021",
+                    "code": "Snake",
+                    "image": "/images/foiling/snake-and-python/FC-1021.JPG"
+                }
+            ]
+        },
+        {
+            "slug": "cut-plates",
+            "size": "sm",
+            "number": "/20",
+            "title_short": "Cut Plates & Embossing",
+            "title": "Cut Plates &amp; <em>Embossing</em>",
+            "eyebrow": "/15 — In-House Craft",
+            "count": "47 plates · 24 cut + 23 embossing",
+            "origin": "Origin · Noida, India",
+            "hero_image": "/images/cut-plates/CP-001.jpg",
+            "lead": "Our in-house cut and embossing library — 24 cut plates and 23 embossing dies, used independently of foiling or as the structural layer beneath it.",
+            "body": "Custom dies developed at our Sector 57 facility. Article numbers stay stable; new dies are added to the library as bespoke work concludes.",
+            "items": [
+                {
+                    "name": "CP-001",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-001.jpg"
+                },
+                {
+                    "name": "CP-002",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-002.jpg"
+                },
+                {
+                    "name": "CP-003",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-003.jpg"
+                },
+                {
+                    "name": "CP-004",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-004.jpg"
+                },
+                {
+                    "name": "CP-005",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-005.jpg"
+                },
+                {
+                    "name": "CP-006",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-006.jpg"
+                },
+                {
+                    "name": "CP-007",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-007.jpg"
+                },
+                {
+                    "name": "CP-008",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-008.jpg"
+                },
+                {
+                    "name": "CP-009",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-009.jpg"
+                },
+                {
+                    "name": "CP-010",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-010.jpg"
+                },
+                {
+                    "name": "CP-011",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-011.jpg"
+                },
+                {
+                    "name": "CP-012",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-012.jpg"
+                },
+                {
+                    "name": "CP-013",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-013.jpg"
+                },
+                {
+                    "name": "CP-014",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-014.jpg"
+                },
+                {
+                    "name": "CP-015",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-015.jpg"
+                },
+                {
+                    "name": "CP-016",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-016.jpg"
+                },
+                {
+                    "name": "CP-030",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-030.jpg"
+                },
+                {
+                    "name": "CP-031",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-031.jpg"
+                },
+                {
+                    "name": "CP-032",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-032.jpg"
+                },
+                {
+                    "name": "CP-033",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-033.jpg"
+                },
+                {
+                    "name": "CP-035",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-035.jpg"
+                },
+                {
+                    "name": "CP-039",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-039.jpg"
+                },
+                {
+                    "name": "CP-042",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-042.jpg"
+                },
+                {
+                    "name": "CP-047",
+                    "code": "Cut Plate",
+                    "image": "/images/cut-plates/CP-047.jpg"
+                },
+                {
+                    "name": "EMB-001",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-001.jpg"
+                },
+                {
+                    "name": "EMB-002",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-002.jpg"
+                },
+                {
+                    "name": "EMB0-003",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB0-003.jpg"
+                },
+                {
+                    "name": "EMB-004",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-004.jpg"
+                },
+                {
+                    "name": "EMB-005",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-005.jpg"
+                },
+                {
+                    "name": "EMB-006",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-006.jpg"
+                },
+                {
+                    "name": "EMB-007",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-007.jpg"
+                },
+                {
+                    "name": "EMB-008",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-008.jpg"
+                },
+                {
+                    "name": "EMB-009",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-009.jpg"
+                },
+                {
+                    "name": "EMB-010",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-010.jpg"
+                },
+                {
+                    "name": "EMB-011",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-011.jpg"
+                },
+                {
+                    "name": "EMB-012",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-012.jpg"
+                },
+                {
+                    "name": "EMB-012X2",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-012X2.jpg"
+                },
+                {
+                    "name": "EMB-034",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-034.jpg"
+                },
+                {
+                    "name": "EMB-036",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-036.jpg"
+                },
+                {
+                    "name": "EMB-037",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-037.jpg"
+                },
+                {
+                    "name": "EMB-038",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-038.jpg"
+                },
+                {
+                    "name": "EMB-040",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-040.jpg"
+                },
+                {
+                    "name": "EMB-041",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-041.jpg"
+                },
+                {
+                    "name": "EMB-043",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-043.jpg"
+                },
+                {
+                    "name": "EMB-044",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-044.jpg"
+                },
+                {
+                    "name": "EMB-045",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-045.jpg"
+                },
+                {
+                    "name": "EMB-046",
+                    "code": "Embossing",
+                    "image": "/images/cut-plates/EMB-046.jpg"
+                }
+            ]
+        },
+        {
+            "slug": "digital-printing",
+            "size": "sm",
+            "number": "/21",
+            "title_short": "Digital Printing",
+            "title": "Digital <em>Printing</em>",
+            "eyebrow": "/16 — Print Capability",
+            "count": "10 curated prints",
+            "origin": "Origin · Noida, India",
+            "hero_image": "/images/digital-printing/FC-1567.jpg",
+            "lead": "Direct-to-leather digital printing — a separate craft alongside foiling, used when the brief calls for photographic depth, pictorial pattern, or full-colour resolution.",
+            "body": "Curated set first shown at IILF 23. Custom artwork accepted for production runs.",
+            "items": [
+                {
+                    "name": "FC-1513",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1513.jpg"
+                },
+                {
+                    "name": "FC-1534",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1534.jpg"
+                },
+                {
+                    "name": "FC-1567",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1567.jpg"
+                },
+                {
+                    "name": "FC-1568",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1568.jpg"
+                },
+                {
+                    "name": "FC-1570",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1570.jpg"
+                },
+                {
+                    "name": "FC-1571",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1571.jpg"
+                },
+                {
+                    "name": "FC-1572",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1572.jpg"
+                },
+                {
+                    "name": "FC-1574",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1574.jpg"
+                },
+                {
+                    "name": "FC-1575",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1575.jpg"
+                },
+                {
+                    "name": "FC-1578",
+                    "code": "Digital",
+                    "image": "/images/digital-printing/FC-1578.jpg"
+                }
+            ]
+        }
+    ],
+    "catalogs": {
+        "heading": "Explore our<br><em>catalogs.</em>\n",
+        "copy": "The full archive on paper — every article we currently stock, photographed at the atelier. Take it to your design table.",
+        "items": [
+            {
+                "eyebrow": "/01 — Collection 26",
+                "title": "Foil Crafts — Collection 26",
+                "meta": "PDF · 23.6 MB · 23 pages",
+                "cover": "/images/catalogues/cover-26.jpg",
+                "file": "/catalogues/foil-crafts-catalog-26.pdf",
+                "action": "Download PDF"
+            },
+            {
+                "eyebrow": "/02 — Collection 26 / 27",
+                "title": "Foil Crafts — Collection 26 / 27",
+                "meta": "PDF · 3.6 MB · Lookbook",
+                "cover": "/images/catalogues/cover-26-27.jpg",
+                "file": "/catalogues/foil-crafts-catalog-26-27.pdf",
+                "action": "Download PDF"
+            },
+            {
+                "eyebrow": "/03 — AW 2023",
+                "title": "Foil Crafts — AW 2023",
+                "meta": "PDF · 13.2 MB · Archive",
+                "cover": "/images/catalogues/cover-26.jpg",
+                "file": "/catalogues/Foil Crafts - AW2023.pdf",
+                "action": "Download PDF"
+            },
+            {
+                "eyebrow": "/04 — Point Mondo",
+                "title": "C.F.M. — Point Mondo",
+                "meta": "PDF · 50 MB · Collection",
+                "cover": "/images/catalogues/cover-point-mondo.jpg",
+                "file": "/catalogues/point-mondo-cfm-A5.pdf",
+                "action": "Download PDF"
+            }
+        ]
+    },
+    "cta": {
+        "headline": "Request the<br><em>material library.</em>\n",
+        "action": "Write for samples →",
+        "secondary_action": {
+            "label": "Customer Login →",
+            "href": "/contact#customer-login"
+        },
+        "contact_line": "info@foilcrafts.com · +91 9899 71 9197 · B-37, Sector 57, Noida",
+        "bg_image": "/images/about/embossing-rolls.jpg",
+        "cfm_mark": "/images/brand/cfm-logo-red.png"
+    },
+    "footer": {
+        "brand_text": "B-37, Sector 57, Noida, UP 201301. Authorised C.F.M. distributor. Italian transfer foils, cut & embossing plates, digital printing, finished leather, and bespoke leather goods. Made in India, for the world.",
+        "columns": [
+            {
+                "heading": "Foiling Families",
+                "items": [
+                    "FT Metallic",
+                    "Animal Prints",
+                    "Abstract",
+                    "Holographic",
+                    "Crackles",
+                    "Florals",
+                    "Acid Foils",
+                    "Distress",
+                    "Hand Painted",
+                    "Small Prints",
+                    "Stripes",
+                    "Tie & Dye",
+                    "Transparent Patents",
+                    "Wrinkled"
+                ]
+            },
+            {
+                "heading": "Other Crafts",
+                "items": [
+                    "Cut Plates & Embossing",
+                    "Digital Printing",
+                    "Finished Leather",
+                    "Bespoke Production"
+                ]
+            },
+            {
+                "heading": "Studio",
+                "items": [
+                    "Capabilities",
+                    "About",
+                    "Process Grid",
+                    "Founders",
+                    "Heritage",
+                    "Catalogs",
+                    "Customer Login"
+                ]
+            },
+            {
+                "heading": "Contact",
+                "items": [
+                    "info@foilcrafts.com",
+                    "+91 9899 71 9197",
+                    "B-37, Sector 57, Noida",
+                    "Instagram",
+                    "LinkedIn"
+                ]
+            }
+        ],
+        "copyright": "© 2026 Foil Crafts · Transferring Value To Surface",
+        "tagline": "Italian foils · Indian hands",
+        "version": "Site v3.1 — IA aligned with INDEX.txt"
+    }
+};
+}),
+"[project]/utils/supabase/server.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "createClient",
+    ()=>createClient
+]);
+// Supabase server client — for Server Components, Server Actions, and Route Handlers.
+// Call await createClient() with no arguments — cookies() is handled internally.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createServerClient$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@supabase/ssr/dist/module/createServerClient.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/headers.js [app-rsc] (ecmascript)");
+;
+;
+async function createClient() {
+    const cookieStore = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cookies"])();
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$ssr$2f$dist$2f$module$2f$createServerClient$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createServerClient"])(("TURBOPACK compile-time value", "https://vlfrnxxtykdjrpaukovh.supabase.co"), ("TURBOPACK compile-time value", "sb_publishable_WpXkTXjs1YKKXFMcC3xBsA_2Z-SRmbd"), {
+        cookies: {
+            getAll () {
+                return cookieStore.getAll();
+            },
+            setAll (cookiesToSet) {
+                try {
+                    cookiesToSet.forEach(({ name, value, options })=>cookieStore.set(name, value, options));
+                } catch  {
+                // setAll was called from a Server Component — safe to ignore
+                // when middleware is refreshing sessions.
+                }
+            }
+        }
+    });
+}
+}),
+"[project]/components/NavClient.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "NavClient",
+    ()=>NavClient
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const NavClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call NavClient() from the server but NavClient is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/NavClient.tsx <module evaluation>", "NavClient");
+}),
+"[project]/components/NavClient.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "NavClient",
+    ()=>NavClient
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const NavClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call NavClient() from the server but NavClient is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/NavClient.tsx", "NavClient");
+}),
+"[project]/components/NavClient.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NavClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/NavClient.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NavClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/NavClient.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NavClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/components/Nav.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Nav",
+    ()=>Nav
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+// Nav — server component wrapper.
+// Fetches the current user + profile from Supabase (server-side, no flash),
+// then passes auth state down to the client-side NavClient which handles
+// scroll, drawer, and all interactive behaviour.
+var __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$supabase$2f$server$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/utils/supabase/server.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NavClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/NavClient.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+async function Nav() {
+    const supabase = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$utils$2f$supabase$2f$server$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["createClient"])();
+    const { data: { user } } = await supabase.auth.getUser();
+    let userName = null;
+    let isAdmin = false;
+    if (user) {
+        const { data: profile } = await supabase.from("profiles").select("full_name, role").eq("id", user.id).single();
+        // Display first name if available, otherwise email prefix
+        const fullName = profile?.full_name ?? null;
+        userName = fullName ? fullName.split(" ")[0] : user.email?.split("@")[0] ?? "Account";
+        isAdmin = profile?.role === "admin";
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$NavClient$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["NavClient"], {
+        userName: userName,
+        isAdmin: isAdmin
+    }, void 0, false, {
+        fileName: "[project]/components/Nav.tsx",
+        lineNumber: 34,
+        columnNumber: 10
+    }, this);
+}
+}),
+"[project]/components/Footer.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Footer",
+    ()=>Footer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/content.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+function getFooterHref(item) {
+    switch(item.trim().toLowerCase()){
+        // Foiling Families
+        case "ft metallic":
+        case "animal prints":
+        case "abstract":
+        case "holographic":
+        case "crackles":
+        case "florals":
+        case "acid foils":
+        case "distress":
+        case "hand painted":
+        case "small prints":
+        case "stripes":
+        case "tie & dye":
+        case "transparent patents":
+        case "wrinkled":
+            return "/foiling";
+        // Other Crafts
+        case "cut plates & embossing":
+            return "/cut-plates-embossing";
+        case "digital printing":
+            return "/digital-printing";
+        case "finished leather":
+            return "/foiling";
+        case "bespoke production":
+            return "/contact";
+        // Studio
+        case "capabilities":
+            return "/#capabilities";
+        case "about":
+            return "/about";
+        case "process grid":
+            return "/about#process";
+        case "founders":
+            return "/about#founders";
+        case "heritage":
+            return "/about#heritage";
+        case "catalogs":
+            return "/catalogs";
+        case "customer login":
+            return "/contact#customer-login";
+        // Contact
+        case "info@foilcrafts.com":
+            return "mailto:info@foilcrafts.com";
+        case "+91 9899 71 9197":
+            return "tel:+919899719197";
+        case "instagram":
+            return "https://www.instagram.com/foilcrafts?utm_source=qr&igsh=MWVocHA4MjUyZjB6cg%3D%3D";
+        case "linkedin":
+            return "https://www.linkedin.com/company/foil-crafts/";
+        case "b-37, sector 57, noida":
+            return "https://maps.google.com/?q=B-37,+Sector+57,+Noida";
+        default:
+            return "#";
+    }
+}
+function Footer() {
+    const f = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].footer;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "footer-grid",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "brand",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.logo.light ?? __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.logo.primary,
+                                alt: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.name,
+                                width: 140,
+                                height: 56,
+                                style: {
+                                    height: 56,
+                                    width: "auto",
+                                    marginBottom: 18
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 73,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                children: f.brand_text
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.tsx",
+                                lineNumber: 80,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Footer.tsx",
+                        lineNumber: 72,
+                        columnNumber: 9
+                    }, this),
+                    f.columns.map((col, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                    children: col.heading
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.tsx",
+                                    lineNumber: 84,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    children: col.items.map((li, j)=>{
+                                        const href = getFooterHref(li);
+                                        const isExternal = href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:");
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: isExternal ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: href,
+                                                target: href.startsWith("http") ? "_blank" : undefined,
+                                                rel: href.startsWith("http") ? "noopener noreferrer" : undefined,
+                                                children: li
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.tsx",
+                                                lineNumber: 93,
+                                                columnNumber: 23
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                href: href,
+                                                children: li
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.tsx",
+                                                lineNumber: 97,
+                                                columnNumber: 23
+                                            }, this)
+                                        }, j, false, {
+                                            fileName: "[project]/components/Footer.tsx",
+                                            lineNumber: 91,
+                                            columnNumber: 19
+                                        }, this);
+                                    })
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.tsx",
+                                    lineNumber: 85,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, i, true, {
+                            fileName: "[project]/components/Footer.tsx",
+                            lineNumber: 83,
+                            columnNumber: 11
+                        }, this))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Footer.tsx",
+                lineNumber: 71,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "footer-bottom",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: f.copyright
+                    }, void 0, false, {
+                        fileName: "[project]/components/Footer.tsx",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: f.tagline
+                    }, void 0, false, {
+                        fileName: "[project]/components/Footer.tsx",
+                        lineNumber: 110,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: f.version ?? "Site v1.0"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Footer.tsx",
+                        lineNumber: 111,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Footer.tsx",
+                lineNumber: 108,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/Footer.tsx",
+        lineNumber: 70,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/components/CustomCursor.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CustomCursor",
+    ()=>CustomCursor
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const CustomCursor = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/CustomCursor.tsx <module evaluation>", "CustomCursor");
+}),
+"[project]/components/CustomCursor.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CustomCursor",
+    ()=>CustomCursor
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const CustomCursor = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call CustomCursor() from the server but CustomCursor is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/CustomCursor.tsx", "CustomCursor");
+}),
+"[project]/components/CustomCursor.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/CustomCursor.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/CustomCursor.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/components/RevealObserver.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "RevealObserver",
+    ()=>RevealObserver
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const RevealObserver = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call RevealObserver() from the server but RevealObserver is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/RevealObserver.tsx <module evaluation>", "RevealObserver");
+}),
+"[project]/components/RevealObserver.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "RevealObserver",
+    ()=>RevealObserver
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const RevealObserver = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call RevealObserver() from the server but RevealObserver is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/components/RevealObserver.tsx", "RevealObserver");
+}),
+"[project]/components/RevealObserver.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RevealObserver$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/RevealObserver.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RevealObserver$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/RevealObserver.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RevealObserver$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/app/layout.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>RootLayout,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/fraunces_2260d444.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/inter_e5f7fbc.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/jetbrains_mono_3bc36c43.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/content.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Nav$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Nav.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/CustomCursor.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RevealObserver$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/RevealObserver.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const metadata = {
+    title: `${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.name} — ${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.tagline}`,
+    description: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["content"].brand.description,
+    // Staging gate — set to public in production via env. See SUPABASE-SETUP.md.
+    robots: {
+        index: false,
+        follow: false,
+        nocache: true
+    }
+};
+function RootLayout({ children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
+        lang: "en",
+        className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$fraunces_2260d444$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_e5f7fbc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$jetbrains_mono_3bc36c43$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable}`,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CustomCursor$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CustomCursor"], {}, void 0, false, {
+                    fileName: "[project]/app/layout.tsx",
+                    lineNumber: 46,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RevealObserver$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["RevealObserver"], {}, void 0, false, {
+                    fileName: "[project]/app/layout.tsx",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Nav$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Nav"], {}, void 0, false, {
+                    fileName: "[project]/app/layout.tsx",
+                    lineNumber: 48,
+                    columnNumber: 9
+                }, this),
+                children,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
+                    fileName: "[project]/app/layout.tsx",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/layout.tsx",
+            lineNumber: 45,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/app/layout.tsx",
+        lineNumber: 41,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__1dydt5o._.js.map

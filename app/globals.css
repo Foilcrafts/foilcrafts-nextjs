@@ -34,12 +34,10 @@
 
   .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 22px var(--gut); display: flex; align-items: center; justify-content: space-between; transition: background .35s, padding .35s, border .35s; border-bottom: 1px solid transparent; }
   .nav.scrolled { background: rgba(242,239,232,.86); backdrop-filter: blur(20px) saturate(1.2); -webkit-backdrop-filter: blur(20px) saturate(1.2); padding: 14px var(--gut); border-bottom: 1px solid rgba(14,14,12,.08); }
-  .nav__logo { display: flex; align-items: center; gap: 10px; }
-  .nav__logo img { height: 80px; transition: opacity .3s; }
-  .nav__logo .nav__logo-light {scale: 1.5;}
-  .nav__logo .nav__logo-primary { display: block; }
-  .nav.hero-mode .nav__logo .nav__logo-light { display: block; }
-  .nav.hero-mode .nav__logo .nav__logo-primary { display: none; }
+  .nav__logo { display: flex; align-items: start; gap: 10px; scale: 1.5; height: 40px;}
+  .nav__logo img { height: 40px; width: auto; transition: opacity .3s; }
+  .nav__logo .nav__logo-light { display: block; }
+  .nav__logo .nav__logo-primary { display: none; }
   .nav.hero-mode .nav__menu a { color: var(--bone); }
   .nav.hero-mode .nav__cta { border-color: var(--bone); color: var(--bone); }
   .nav__menu { display: flex; gap: 26px; align-items: center; font-size: 13px; flex-wrap: wrap; }

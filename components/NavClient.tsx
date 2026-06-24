@@ -70,7 +70,7 @@ export function NavClient({ userName, isAdmin }: NavClientProps) {
     return () => window.removeEventListener("resize", onResize);
   }, []);
 
-  const navClass = `nav${isHome && !scrolled ? " hero-mode" : ""}${scrolled ? " scrolled" : ""}`;
+  const navClass = `nav${!scrolled ? " hero-mode" : ""}${scrolled ? " scrolled" : ""}`;
   const loggedIn = userName !== null;
 
   return (

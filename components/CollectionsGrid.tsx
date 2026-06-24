@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { content } from "@/lib/content";
+import { Lightbox } from "./Lightbox";
 
 type Collection = (typeof content.collections)[number];
 
@@ -19,6 +20,15 @@ export function CollectionsGrid({
     ? content.collections.filter((c) => filter.includes(c.slug))
     : content.collections;
   const [active, setActive] = useState<Collection | null>(null);
+  const [previewIndex, setPreviewIndex] = useState<number | null>(null);
+
+  // Reset preview when active collection changes
+  useEffect(() => {
+    setPreviewIndex(null);
+  }, [active]);
+
+  const activeItems = active?.items ?? [];
+  const visibleItemsForLightbox = isApproved ? activeItems : activeItems.slice(0, 3);
 
   // Lock body scroll when modal open
   useEffect(() => {
@@ -131,7 +141,18 @@ export function CollectionsGrid({
               </div>
               <div className="detail__items">
                 {visibleItems.map((it, i) => (
-                  <div key={i} className="item">
+                  <div
+                    key={i}
+                    className="item"
+                    onClick={() => setPreviewIndex(i)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ") {
+                        setPreviewIndex(i);
+                      }
+                    }}
+                  >
                     <div
                       className="item__bg"
                       style={{ backgroundImage: `url('${it.image}')` }}
@@ -162,6 +183,18 @@ export function CollectionsGrid({
           );
         })()}
       </div>
+
+      {/* Full screen design preview lightbox (rendered outside transform/scrolled container) */}
+      <Lightbox
+        images={visibleItemsForLightbox.map((it) => ({
+          src: it.image,
+          name: it.name,
+          code: it.code,
+        }))}
+        initialIndex={previewIndex ?? 0}
+        isOpen={previewIndex !== null}
+        onClose={() => setPreviewIndex(null)}
+      />
     </>
   );
 }

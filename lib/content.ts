@@ -1211,7 +1211,7 @@ export const content = {
         "title": "Foil Crafts — Collection 26",
         "meta": "PDF · 23.6 MB · 23 pages",
         "cover": "/images/catalogues/cover-26.jpg",
-        "file": "/catalogues/foil-crafts-catalog-26.pdf",
+        "file": "/catalogues/collection-26-new.pdf",
         "action": "Download PDF"
       },
       {

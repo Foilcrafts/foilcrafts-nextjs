@@ -1,14 +1,18 @@
+"use client";
+
 /* Items-inline grid — for digital-printing and cut-plates-embossing pages.
    Auth-aware:
      • First 10 items are always visible (logged-out or logged-in).
      • If there are more than 10 items AND the user is NOT approved,
        show a "+N More Articles" teaser card after the 10th item.
      • If the user IS approved, show ALL items with no teaser.
-   Server component — no interactivity needed.
+   Client component supporting lightbox image previews.
 */
 
+import { useState } from "react";
 import Link from "next/link";
 import { content } from "@/lib/content";
+import { Lightbox } from "./Lightbox";
 
 const PUBLIC_PREVIEW_COUNT = 8;
 
@@ -18,6 +22,8 @@ interface Props {
 }
 
 export function ItemsInline({ fromSlug, isApproved }: Props) {
+  const [previewIndex, setPreviewIndex] = useState<number | null>(null);
+
   const col = content.collections.find((c) => c.slug === fromSlug);
   if (!col) return null;
 
@@ -27,11 +33,29 @@ export function ItemsInline({ fromSlug, isApproved }: Props) {
   const showTeaser = !isApproved && hiddenCount > 0;
   const visibleItems = isApproved ? allItems : allItems.slice(0, PUBLIC_PREVIEW_COUNT);
 
+  // Map items to the format expected by the Lightbox component
+  const lightboxImages = visibleItems.map((it) => ({
+    src: it.image,
+    name: it.name,
+    code: it.code,
+  }));
+
   return (
     <section className="ii-section" id="items-inline">
       <div className="ii-grid">
         {visibleItems.map((it, i) => (
-          <div key={i} className="ii-card">
+          <div
+            key={i}
+            className="ii-card"
+            onClick={() => setPreviewIndex(i)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                setPreviewIndex(i);
+              }
+            }}
+          >
             <div
               className="ii-card__bg"
               style={{ backgroundImage: `url('${it.image}')` }}
@@ -60,6 +84,14 @@ export function ItemsInline({ fromSlug, isApproved }: Props) {
           </Link>
         )}
       </div>
+
+      {/* Full screen design preview lightbox */}
+      <Lightbox
+        images={lightboxImages}
+        initialIndex={previewIndex ?? 0}
+        isOpen={previewIndex !== null}
+        onClose={() => setPreviewIndex(null)}
+      />
     </section>
   );
 }

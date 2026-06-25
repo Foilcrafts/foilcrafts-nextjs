@@ -239,9 +239,24 @@
 
   /* Hero slider (replaces single hero when brief defines `slider`) */
   .hero-slider { position: relative; height: 100vh; min-height: 720px; overflow: hidden; background: var(--ink); }
-  .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; background-image: var(--bg-desktop); background-size: cover; background-position: center; cursor: pointer; }
+  .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; background-image: var(--bg-desktop); background-size: cover; background-position: center; }
   .hero-slide.active { opacity: 1; z-index: 2; }
-  .hero-slide::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.18) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,.25) 100%); pointer-events: none; }
+  .hero-slide::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to right, rgba(14,14,12,.75) 0%, rgba(14,14,12,.2) 60%, rgba(14,14,12,.4) 100%), linear-gradient(to top, rgba(14,14,12,.55) 0%, transparent 40%); pointer-events: none; z-index: 1; }
+
+  .hero-slide__inner { position: relative; height: 100%; width: 100%; z-index: 2; display: flex; align-items: flex-end; padding: 0 var(--gut) 160px; }
+  .hero-slide__content { max-width: var(--max); margin: 0 auto; width: 100%; text-align: left; display: flex; flex-direction: column; align-items: flex-start; }
+  .hero-slide__eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .25em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; }
+  .hero-slide__title { font-family: var(--serif); font-size: clamp(38px, 6.5vw, 88px); font-weight: 300; line-height: 0.95; letter-spacing: -.03em; color: var(--bone); max-width: 800px; }
+  .hero-slide__title em { font-style: italic; color: var(--gold); }
+  .hero-slide__sub { font-size: clamp(14px, 1.8vw, 16px); max-width: 560px; color: rgba(242, 239, 232, 0.85); margin-top: 24px; line-height: 1.6; }
+  .hero-slide__meta { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 32px; font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .15em; color: var(--ash); }
+  .hero-slide__meta-item:not(:last-child)::after { content: '•'; margin-left: 16px; color: var(--gold); }
+  .hero-slide__buttons { display: flex; gap: 16px; margin-top: 40px; flex-wrap: wrap; }
+  .hero-slide__action { display: inline-flex; align-items: center; justify-content: center; padding: 18px 34px; border-radius: 100px; font-size: 14px; font-weight: 500; text-decoration: none; transition: all .35s ease; cursor: none; }
+  .hero-slide__action--primary { background: var(--gold); border: 1px solid var(--gold); color: var(--ink); }
+  .hero-slide__action--primary:hover { background: var(--bone); border-color: var(--bone); color: var(--ink); }
+  .hero-slide__action--secondary { background: rgba(14, 14, 12, 0.3); border: 1px solid rgba(242, 239, 232, 0.4); color: var(--bone); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+  .hero-slide__action--secondary:hover { background: var(--bone); border-color: var(--bone); color: var(--ink); }
   .hero-slider__dots { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); z-index: 10; display: flex; gap: 14px; }
   .hero-slider__dot { width: 36px; height: 2px; background: rgba(242,239,232,.35); cursor: pointer; transition: background .35s; border: none; padding: 0; }
   .hero-slider__dot.active { background: var(--bone); }
@@ -484,6 +499,14 @@
     .hero-slider__dots { bottom: 24px; gap: 10px; }
     .hero-slider__dot { width: 28px; }
     .hero-slide { background-image: var(--bg-mobile); }
+    .hero-slide__inner { padding: 0 var(--gut) 110px; }
+    .hero-slide__title { font-size: clamp(32px, 8vw, 56px); }
+    .hero-slide__sub { font-size: 14px; margin-top: 18px; max-width: 100%; }
+    .hero-slide__meta { gap: 12px; margin-top: 24px; font-size: 9px; }
+    .hero-slide__meta-item:not(:last-child)::after { margin-left: 12px; }
+    .hero-slide__buttons { gap: 12px; margin-top: 28px; }
+    .hero-slide__action { padding: 14px 26px; font-size: 13px; }
+    .hide-mobile { display: none !important; }
 
     /* === Section heads stack === */
     .section-head { grid-template-columns: 1fr; gap: 18px; }

@@ -35,31 +35,72 @@ export const content = {
         "image": "/images/banners/banner1.jpeg",
         "mobileImage": "/images/banners/mobile/banner-1.jpg.jpeg",
         "destination": "/foiling",
-        "label": "C.F.M. — the Italian house"
+        "label": "C.F.M. — the Italian house",
+        "eyebrow": "ITALIAN TRANSFER-FOIL ARTISTRY",
+        "title": "Exclusive Distributors<br>of <em>CFM</em>",
+        "sub": "Premium Italian transfer foils, exclusively in India — foiling, digital printing, cut printing & embossing for the world's finest leather.",
+        "meta": [
+          "Third-generation craft",
+          "20+ years of foil expertise",
+          "In-house infrastructure",
+          "Made in India"
+        ],
+        "buttons": [
+          { "label": "Explore the Collections", "href": "/foiling", "primary": true },
+          { "label": "Request Catalogue Access", "href": "/catalogs", "primary": false }
+        ]
       },
       {
         "image": "/images/banners/banner2.jpeg",
         "mobileImage": "/images/banners/mobile/banner-2.jpg.jpeg",
         "destination": "/foiling",
-        "label": "Design is our passion"
+        "label": "Design is our passion",
+        "title": "Design is <em>our passion</em>",
+        "sub": "Transferring value to surface — bespoke foiling for the world's finest bags, footwear, garments and accessories.",
+        "buttons": [
+          { "label": "View the Foiling Range", "href": "/foiling", "primary": true }
+        ]
       },
       {
         "image": "/images/banners/banner3.jpeg",
         "mobileImage": "/images/banners/mobile/banner-3.jpg.jpeg",
         "destination": "/foiling",
-        "label": "Infinite choice of foils"
+        "label": "Infinite choice of foils",
+        "title": "An <em>infinite choice</em>",
+        "sub": "Animal, metallic, abstract, floral, crackle and more — engineered in-house, finished to export standard.",
+        "buttons": [
+          { "label": "Explore the Collections", "href": "/foiling", "primary": true }
+        ]
       },
       {
         "image": "/images/banners/banner4.jpeg",
         "mobileImage": "/images/banners/mobile/banner-4.jpg.jpeg",
         "destination": "/digital-printing",
-        "label": "Digital Printing"
+        "label": "Digital Printing",
+        "eyebrow": "DIGITAL PRINT  •  CUT PLATES  •  EMBOSSING",
+        "title": "Your <em>vision</em>, our creation",
+        "sub": "Cutting-edge digital print and precision cut-plate embossing on leather — unlimited colour, exacting detail.",
+        "buttons": [
+          { "label": "View Capabilities", "href": "#capabilities", "primary": true }
+        ]
       },
       {
         "image": "/images/banners/banner5.jpeg",
         "mobileImage": "/images/banners/mobile/banner-5.jpg.jpeg",
         "destination": "/contact#customer-login",
-        "label": "Made in India"
+        "label": "Made in India",
+        "eyebrow": "THIRD-GENERATION CRAFT",
+        "title": "Proudly Made in <em>India</em>, for the world",
+        "sub": "Exclusive distributors of C.F.M. Italian Transfer Foils.",
+        "meta": [
+          "Third-generation craft",
+          "20+ years of foil expertise",
+          "In-house infrastructure",
+          "Made in India"
+        ],
+        "buttons": [
+          { "label": "Request Customer Login", "href": "/login", "primary": true }
+        ]
       }
     ]
   },
